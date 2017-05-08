@@ -3,7 +3,6 @@ package mods.skittles.telegramx
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.content.pm.ApplicationInfo
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
 import android.util.Log
@@ -32,6 +31,24 @@ import mods.skittles.telegramx.ThemeFunctions.isCallingPackageAllowed
 import mods.skittles.telegramx.ThemeFunctions.isPackageInstalled
 import java.io.File
 import java.util.*
+import mods.skittles.telegramx.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import mods.skittles.telegramx.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
+import mods.skittles.telegramx.Constants.MINIMUM_SUBSTRATUM_VERSION
+import mods.skittles.telegramx.Constants.OTHER_THEME_SYSTEMS
+import mods.skittles.telegramx.Constants.SHOW_DIALOG_REPEATEDLY
+import mods.skittles.telegramx.Constants.SHOW_LAUNCH_DIALOG
+import mods.skittles.telegramx.Constants.SUBSTRATUM_FILTER_CHECK
+import mods.skittles.telegramx.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
+import mods.skittles.telegramx.ThemeFunctions.checkSubstratumIntegrity
+import mods.skittles.telegramx.ThemeFunctions.getSelfSignature
+import mods.skittles.telegramx.ThemeFunctions.getSelfVerifiedIntentResponse
+import mods.skittles.telegramx.ThemeFunctions.getSelfVerifiedPirateTools
+import mods.skittles.telegramx.ThemeFunctions.getSelfVerifiedThemeEngines
+import mods.skittles.telegramx.ThemeFunctions.getSubstratumFromPlayStore
+import mods.skittles.telegramx.ThemeFunctions.getSubstratumUpdatedResponse
+import mods.skittles.telegramx.ThemeFunctions.hasOtherThemeSystem
+import mods.skittles.telegramx.ThemeFunctions.isCallingPackageAllowed
+import mods.skittles.telegramx.ThemeFunctions.isPackageInstalled
 
 @Suppress("ConstantConditionIf") // This needs to be defined by the themer, so suppress!
 class SubstratumLauncher : Activity() {
@@ -171,6 +188,10 @@ class SubstratumLauncher : Activity() {
         val intent = intent
         val action = intent.action
         var verified = false
+        val certified = intent.getBooleanExtra("certified", false)
+        val modeLaunch: String? = intent.getStringExtra("theme_mode")
+
+        val sharedPref = getPreferences(Context.MODE_PRIVATE)
         if ((action == substratumIntentData) or (action == getKeysIntent)) {
             verified = when {
                 allowThirdPartySubstratumBuilds() -> true
@@ -190,15 +211,27 @@ class SubstratumLauncher : Activity() {
             Log.d(tag, "'$action' has been authorized to launch this theme.")
         }
 
-        val certified = intent.getBooleanExtra("certified", false)
-        val modeLaunch: String? = intent.getStringExtra("theme_mode")
-
-        val sharedPref = getPreferences(Context.MODE_PRIVATE)
-        if (getInternetCheck()) {
-            if (sharedPref.getInt("last_version", 0) == BuildConfig.VERSION_CODE) {
-                when {
-                    else -> calibrateSystem(certified, modeLaunch)
+        if (SHOW_LAUNCH_DIALOG) run {
+            if (SHOW_DIALOG_REPEATEDLY) {
+                showDialog(certified, modeLaunch)
+                sharedPref.edit().remove("dialog_showed").apply()
+            } else if (!sharedPref.getBoolean("dialog_showed", false)) {
+                showDialog(certified, modeLaunch)
+                sharedPref.edit().putBoolean("dialog_showed", true).apply()
+            } else {
+                if (getInternetCheck()) {
+                    if (sharedPref.getInt("last_version", 0) == BuildConfig.VERSION_CODE) {
+                        calibrateSystem(certified, modeLaunch)
+                    } else {
+                        checkConnection(certified, modeLaunch)
+                    }
+                } else {
+                    calibrateSystem(certified, modeLaunch)
                 }
+            }
+        } else if (getInternetCheck()) {
+            if (sharedPref.getInt("last_version", 0) == BuildConfig.VERSION_CODE) {
+                calibrateSystem(certified, modeLaunch)
             } else {
                 checkConnection(certified, modeLaunch)
             }
@@ -211,6 +244,30 @@ class SubstratumLauncher : Activity() {
         val editor = getPreferences(Context.MODE_PRIVATE).edit()
         editor.putInt("last_version", BuildConfig.VERSION_CODE).apply()
         calibrateSystem(certified, modeLaunch)
+    }
+
+    private fun showDialog(certified: Boolean, modeLaunch: String?) {
+        val dialog = AlertDialog.Builder(this, R.style.DialogStyle)
+                .setCancelable(false)
+                .setIcon(R.mipmap.ic_launcher)
+                .setTitle(R.string.launch_dialog_title)
+                .setMessage(R.string.launch_dialog_content)
+                .setPositiveButton(R.string.launch_dialog_positive) { _, _ ->
+                    val sharedPref = getPreferences(Context.MODE_PRIVATE)
+                    if (getInternetCheck()) {
+                        if (sharedPref.getInt("last_version", 0) == BuildConfig.VERSION_CODE) {
+                            calibrateSystem(certified, modeLaunch)
+                        } else {
+                            checkConnection(certified, modeLaunch)
+                        }
+                    } else {
+                        calibrateSystem(certified, modeLaunch)
+                    }
+                }
+        if (getString(R.string.launch_dialog_negative).isNotEmpty()) {
+            dialog.setNegativeButton(R.string.launch_dialog_negative) { _, _ -> finish() }
+        }
+        dialog.show()
     }
 
     // Load up the JNI library
