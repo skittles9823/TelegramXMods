@@ -30,6 +30,9 @@ install:
   - echo y | sdkmanager "platforms;android-27"
   - avdmanager --list || true  # Debug / Observation
   
+before_deploy:
+  - chmod +x scripts/changelog.sh
+
 deploy:
   - provider: script
     skip_cleanup: true
