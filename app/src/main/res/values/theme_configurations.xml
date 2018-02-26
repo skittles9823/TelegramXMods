@@ -1,6 +1,6 @@
 <resources>
     <!-- Theme name and author name -->
-    <string name="ThemeName">Mods for Telegram X</string>
+    <string name="ThemeName">Telegram X Mods</string>
     <string name="ThemeAuthor">Skittles9823 (and his spaghets)</string>
     <!-- Your email for bug reports (DEFAULT: empty) -->
     <!--suppress CheckTagEmptyBody -->
@@ -20,10 +20,5 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>Aye</item>
-        <item>Yo</item>
-        <item>First</item>
-        <item>Release</item>
-        <item>Ni🅱🅱a!</item>
     </string-array>
 </resources>
