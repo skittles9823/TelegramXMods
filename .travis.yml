@@ -15,6 +15,11 @@ android:
     - android-${COMPILE_SDK_VERSION} # For building
     - extra-android-m2repository # Support library
 
+# whitelist
+branches:
+  only:
+    - kt-n
+
 before_install:
   - chmod +x gradlew
   
