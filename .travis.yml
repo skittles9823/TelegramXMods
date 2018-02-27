@@ -38,7 +38,7 @@ install:
   
 before_deploy:
   - chmod +x scripts/changelog.sh
-  - cp $TRAVIS_BUILD_DIR/.TGXMods $HOME
+  - cp $TRAVIS_BUILD_DIR/TGXMods* $HOME
   - cd app/build/outputs/apk/
   - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/TGXMods.jks -storepass $storepass -keypass $keypass app-release-unsigned.apk tgxmods
   # Verification
