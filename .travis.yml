@@ -22,7 +22,8 @@ branches:
 
 before_install:
   - chmod +x gradlew
-  
+  - echo $unencrypt | gpg --passphrase-fd 0 TGXMods.jks.gpg
+
 script: ./gradlew assembleDebug
 
 install:
@@ -37,6 +38,12 @@ install:
   
 before_deploy:
   - chmod +x scripts/changelog.sh
+  - cp $TRAVIS_BUILD_DIR/.keystore $HOME
+  - cd app/build/outputs/apk/
+  - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/keystore.jks -storepass $storepass -keypass $keypass app-release-unsigned.apk tgxmods
+  # Verification
+  - jarsigner -verify app-release-unsigned.apk
+  - "${ANDROID_HOME}/build-tools/27.0.3/zipalign -v 4 app-debug-unsigned.apk app-debug.apk"
 
 deploy:
   - provider: script
