@@ -43,7 +43,8 @@ before_deploy:
   - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/TGXMods.jks -storepass $storepass -keypass $keypass app-release-unsigned.apk tgxmods
   # Verification
   - jarsigner -verify app-release-unsigned.apk
-  - "${ANDROID_HOME}/build-tools/27.0.3/zipalign -v 4 app-release-unsigned.apk app-release"
+  - "${ANDROID_HOME}/build-tools/27.0.3/zipalign -v 4 app-release-unsigned.apk 
+app-release.apk"
 
 deploy:
   - provider: script
