@@ -33,14 +33,16 @@ android {
     lintOptions {
         checkReleaseBuilds = false
 
+    }
     signingConfigs {
         travis {
             storeFile file("TGXMods.jks")
             storePassword System.getenv("storepass")
             keyAlias "tgxmods"
             keyPassword System.getenv("keypass")
-        }
 
+            }
+        }
     }
 
     defaultConfig {
