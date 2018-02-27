@@ -28,14 +28,20 @@ ext {
 }
 
 android {
-
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
     lintOptions {
         checkReleaseBuilds = false
 
-    }
+    signingConfigs {
+        travis {
+            storeFile file("TGXMods.jks")
+            storePassword System.getenv("storepass")
+            keyAlias "tgxmods"
+            keyPassword System.getenv("keypass")
+        }
 
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    }
 
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
