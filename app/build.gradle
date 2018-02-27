@@ -41,7 +41,6 @@ android {
             keyAlias "tgxmods"
             keyPassword System.getenv("keypass")
 
-            }
         }
     }
 
