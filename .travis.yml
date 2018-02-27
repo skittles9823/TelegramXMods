@@ -40,10 +40,10 @@ before_deploy:
   - chmod +x scripts/changelog.sh
   - cp $TRAVIS_BUILD_DIR/TGXMods* $HOME
   - cd app/build/outputs/apk
-  - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/TGXMods.jks -storepass $storepass -keypass $keypass app-release.apk tgxmods
+  - jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $HOME/TGXMods.jks -storepass $storepass -keypass $keypass app-release*.apk tgxmods
   # Verification
-  - jarsigner -verify app-release.apk
-  - "${ANDROID_HOME}/build-tools/27.0.3/zipalign -v 4 app-release.apk"
+  - jarsigner -verify app-release*.apk
+  - "${ANDROID_HOME}/build-tools/27.0.3/zipalign -v 4 app-release*.apk"
 
 deploy:
   - provider: script
