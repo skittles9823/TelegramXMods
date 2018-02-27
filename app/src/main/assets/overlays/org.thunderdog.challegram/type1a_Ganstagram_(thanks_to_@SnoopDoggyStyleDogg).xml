@@ -26,7 +26,7 @@
 <string name="ActiveSessions">Actizzle Sessions</string>
 <string name="Add">Add</string>
 <string name="AddACaption">Add a caption…</string>
-<string name="AddAdmin">Add Administrator</string>
+<string name="AddAdmin">Add Boss Ass Niggaistrator</string>
 <string name="AddBot">Add Bot</string>
 <string name="AddComment">Add a comment…</string>
 <string name="AddContact">Add contizzle</string>
@@ -41,26 +41,26 @@
 <string name="AddXStickers">Add %1$s sticka%2$s</string>
 <string name="AdjustNightLux">Calibrate darkness detection</string>
 <string name="AdjustNightLuxDesc">"Setting lower value will trigger  Nigzaat Modizzle \'n darker spaces. Current lux: %1$s (%2$s)"</string>
-<string name="AdminCanAssignAdmins">This Admin will be able ta add new admins with tha same (or more limited) permissions.</string>
-<string name="AdminCannotAssignAdmins">This Admin will not be able ta add new admins.</string>
-<string name="AdminRights">Admin Rights</string>
-<string name="Administrator">Administrator</string>
-<string name="Administrators">Administrators</string>
-<string name="Admins">Admins</string>
-<string name="AdminsAreAll">All niggas are Admins</string>
+<string name="AdminCanAssignAdmins">This boss ass nigga will be able ta add new boss ass niggas with tha same (or more limited) permissions.</string>
+<string name="AdminCannotAssignAdmins">This boss ass nigga will not be able ta add new boss ass niggas.</string>
+<string name="AdminRights">Boss Ass Nigga Rights</string>
+<string name="Administrator">Niggaistrator</string>
+<string name="Administrators">Ndministrators</string>
+<string name="Admins">Boss Ass Niggas</string>
+<string name="AdminsAreAll">All niggas are boss ass niggas</string>
 <string name="AdminsAreAllHint">All niggas can add new niggas, edit name and phizzles of tha group.</string>
-<string name="AdminsAreSelectedHint">Only chosen admins can add new niggas, edit name and phizzles of tha group.</string>
-<string name="AdminsHint">"You can add administrators ta help yo\' manage yo\'channel"</string>
+<string name="AdminsAreSelectedHint">Only chosen boss ass niggas can add new niggas, edit name and phizzles of tha group.</string>
+<string name="AdminsHint">"Yo\' can add boss ass niggaistrators ta help yo\' manage yo\'channel"</string>
 <string name="Advanced">Advizzled</string>
 <string name="AirplaneMode">Airplane Modizzle</string>
-<string name="AirplaneModeCall">"You currently have airplane mode enabled. Please turn it off or connect ta Wi-Fizzle \'n order ta make cizzals."</string>
+<string name="AirplaneModeCall">"Yo\' currently have airplane mode enabled. Please turn it off or connect ta Wi-Fizzle \'n order ta make cizzals."</string>
 <string name="All">All</string>
 <string name="AllMedia">All medizzle</string>
 <string name="AllMembers">All niggas</string>
 <string name="AllPhotos">All phizzless</string>
 <string name="Allow">Allow</string>
 <string name="AlmostThere">Almost there!</string>
-<string name="AlreadyAdmin">This  nigga is already admin</string>
+<string name="AlreadyAdmin">This  nigga is already boss ass nigga</string>
 <string name="AlreadyInChat">"This  nigga is already \'n chizzat"</string>
 <string name="Always">Always</string>
 <string name="AlwaysAllow">Always Allow</string>
@@ -73,11 +73,11 @@
 <string name="AnyMedia">Any medizzle</string>
 <string name="AnySize">Any size</string>
 <string name="AnyoneCanInvite">Anyone can invite</string>
-<string name="AnyoneCanInviteHint">By default, only administrators can add new niggas.</string>
+<string name="AnyoneCanInviteHint">By default, only boss ass niggaistrators can add new niggas.</string>
 <string name="Appearance">Appearance</string>
 <string name="Apply">Apply</string>
 <string name="ApplyCurrentChanges">Save current changes?</string>
-<string name="AppointAsAdmin">Appoint %1$s as administrator?</string>
+<string name="AppointAsAdmin">Appoint %1$s as boss ass niggaistrator?</string>
 <string name="Archive">Archive</string>
 <string name="ArchivePack">Archive Pack</string>
 <string name="ArchiveStickerSet">"Archive sticka set %1$s? yo\' can restore it lata \'n Settings > Stickas > Archived."</string>
@@ -110,13 +110,13 @@
 Example: 23 y.o. nigga from San Francisco."</string>
 <string name="Blacklist">Blacklist</string>
 <string name="BlockFor">Pop for</string>
-<string name="BlockListEmpty">"You didn't block anyone yet"</string>
+<string name="BlockListEmpty">"Yo\' didn't block anyone yet"</string>
 <string name="BlockUntil">Block until</string>
 <string name="BlockUser">Block usa</string>
 <string name="BlockedUsers">Popped Niggas</string>
 <string name="Blur">Blur</string>
 <string name="BlurOff">Off</string>
-<string name="BotAdminsHint">You can add bots as administrators f\o automatic messizzles</string>
+<string name="BotAdminsHint">Yo\' can add botizzles as boss ass niggaistrators f\o automatic messizzles</string>
 <string name="BotIsDown">Bot is not responding. Please try again lata.</string>
 <string name="BotIsDownSpecific">%1$s is not responding. Please try again lata.</string>
 <string name="Bots">Bots</string>
@@ -132,8 +132,8 @@ Example: 23 y.o. nigga from San Francisco."</string>
 <string name="CallBrandingIncoming">Incoming  Gangstagram cizzal</string>
 <string name="CallEmojiHint">"If these emoji are tha same on %1$s's screen, this cizzal is 100%% secure."</string>
 <string name="CallInProgress">"Another cizzal \'n progress"</string>
-<string name="CallInProgressDesc">You currently have an ongoing cizzal with &lt;b>%1$s&lt;/b>. Would yo\' like ta hang up on that cizzal and start a new one with &lt;b>%2$s&lt;/b>?</string>
-<string name="CallInProgressPlayAudio">"You currently have a cizzal \'n progress. Please end it \'n order ta listen audio."</string>
+<string name="CallInProgressDesc">Yo\' currently have an ongoing cizzal with &lt;b>%1$s&lt;/b>. Would yo\' like ta hang up on that cizzal and start a new one with &lt;b>%2$s&lt;/b>?</string>
+<string name="CallInProgressPlayAudio">"Yo\' currently have a cizzal \'n progress. Please end it \'n order ta listen audio."</string>
 <string name="CallNoLongerActive">This cizzal is no longer active</string>
 <string name="CallStateBusy">Line Busy</string>
 <string name="CallStateCancelled">Cizzle cancelled</string>
@@ -165,7 +165,7 @@ Example: 23 y.o. nigga from San Francisco."</string>
 <string name="Channel">Channizzle</string>
 <string name="ChannelBots">Channizzle bots</string>
 <string name="ChannelCreated">Channizzle created</string>
-<string name="ChannelDescriptionHint">"You can provide an optional description f\o yo\'channel."</string>
+<string name="ChannelDescriptionHint">"Yo\' can provide an optional description f\o yo\'channel."</string>
 <string name="ChannelEnterValidName">Please enter a valid channel name</string>
 <string name="ChannelIsPrivate">Channizzle is private</string>
 <string name="ChannelLink">Channizzle Link</string>
@@ -181,8 +181,8 @@ Example: 23 y.o. nigga from San Francisco."</string>
 <string name="ChatAccessFailed">Cannot access this chizzat</string>
 <string name="ChatAccessPrivateChannel">This channel is private</string>
 <string name="ChatAccessPrivateGroup">This crew is private</string>
-<string name="ChatAccessRestrictedChannel">"You were banned \'n this channel"</string>
-<string name="ChatAccessRestrictedGroup">"You were banned \'n this group"</string>
+<string name="ChatAccessRestrictedChannel">"Yo\' were banned \'n this channel"</string>
+<string name="ChatAccessRestrictedGroup">"Yo\' were banned \'n this group"</string>
 <string name="ChatHistoryForNewMembers">Chizzat History f\o New niggas</string>
 <string name="ChatHistoryHidden">Hidden</string>
 <string name="ChatHistoryHiddenHint">"New niggas won't see earlier messizzles."</string>
@@ -295,14 +295,14 @@ Don't forget ta clear logs before capturing tha bug."</string>
 <string name="DeleteContact">Delete contizzle</string>
 <string name="DeleteContactConfirm">Are yo\' sure yo\' want ta delete %1$s from contizzles list?</string>
 <string name="DeleteEntry">Delete Entry</string>
-<string name="DeleteFileHint">Note: yo\' will be able ta download this file any time lata.</string>
+<string name="DeleteFileHint">Note: yo\' will be able ta download this fizzle any time lata.</string>
 <string name="DeleteForEveryone">Delete f\o everyone</string>
 <string name="DeleteForMeAndX">Delete f\o me and %1$s</string>
 <string name="DeleteForX">Delete f\o %1$s</string>
 <string name="DeleteFromCache">Clear da useless shit</string>
 <string name="DeleteMessage">Delete messizzle</string>
 <string name="DeleteMessages">Delete messizzles</string>
-<string name="DeleteMultipleFilesHint">Note: yo\' will be able ta download these files any time lata.</string>
+<string name="DeleteMultipleFilesHint">Note: yo\' will be able ta download these fizzles any time lata.</string>
 <string name="DeletePack">Delete pack</string>
 <string name="DeleteXFromRecents">Delete %1$s from recently found chizzats?</string>
 <string name="DeleteXFromSuggestions">Delete %1$s from suggestions?</string>
@@ -326,7 +326,7 @@ Delete tha crew anyway?"</string>
 <string name="DisableAutoNightMode">Disable Auto  Nigzaat Modizzle?</string>
 <string name="DisableAutoNightModeDesc">"Changing current theme will disable Auto  Nigzaat Modizzle.
 
-You may enable it any time lata \'n Settings -> Themes and Mods."</string>
+Yo\' may enable it any time lata \'n Settings -> Themes and Mods."</string>
 <string name="DisableCustomVibrations">Disable hold-to-previzzle vibrizzles</string>
 <string name="DisablePassword">Disable Password</string>
 <string name="DisablePasswordPrompt">"Are yo\' sure yo\' want ta disable yo\'password?"</string>
@@ -342,14 +342,14 @@ You may enable it any time lata \'n Settings -> Themes and Mods."</string>
 <string name="DiscardVoiceMessageDescription">"Are yo\' sure yo\' want ta stop recording and discard yo\'voice messizzle?"</string>
 <string name="DiscardVoiceMessageTitle">Discard Voice Message</string>
 <string name="DiskAndNetworkUsage">Disk and network usagizzle</string>
-<string name="DismissAdmin">Dismiss admin</string>
-<string name="DismissKickAdmin">Dismiss and kick admin</string>
+<string name="DismissAdmin">Dismiss boss ass nigga</string>
+<string name="DismissKickAdmin">Dismiss and kick boss ass nigga</string>
 <string name="Docs">Fizzle</string>
 <string name="Done">Dun</string>
 <string name="DoneX">Dun (%1$s)</string>
 <string name="DoubleShort">Double Short</string>
 <string name="DownloadInBackground">"Start download \'n background"</string>
-<string name="DownloadUnsupported">"Sorry, yo\' cannot use remote files \'n this function yet"</string>
+<string name="DownloadUnsupported">"Sorry, yo\' cannot use remote fizzles \'n this function yet"</string>
 <string name="DownloadedToPath">Successfully downloaded: %1$s</string>
 <string name="Downloading">Downloading</string>
 <string name="DownloadingPleaseWait">Downloading, please wait…</string>
@@ -357,8 +357,8 @@ You may enable it any time lata \'n Settings -> Themes and Mods."</string>
 <string name="Draft">Draft</string>
 <string name="Duration">Duration</string>
 <string name="EMail">E-Mail</string>
-<string name="EditAdmin">Edit Admin</string>
-<string name="EditAdminRights">Edit Admin Rights</string>
+<string name="EditAdmin">Edit boss ass nigga</string>
+<string name="EditAdminRights">Edit boss ass nigga Rights</string>
 <string name="EditGroup">Edit Group</string>
 <string name="EditMessage">Edit messizzle</string>
 <string name="EditName">Edit name</string>
@@ -369,7 +369,7 @@ You may enable it any time lata \'n Settings -> Themes and Mods."</string>
 <string name="Enable">Enable</string>
 <string name="EnableNotifications">Enable notificizzles</string>
 <string name="Enabled">Enabled</string>
-<string name="EnabledTwoStepVerification">"You have enabled Two-Step Verificizzle, so yo\'account is protected with an additional password."</string>
+<string name="EnabledTwoStepVerification">"Yo\' have enabled Two-Step Verificizzle, so yo\'account is protected with an additional password."</string>
 <string name="EncryptedDescription1">Use end-to-end encryption</string>
 <string name="EncryptedDescription2">Leave no trace on our servers</string>
 <string name="EncryptedDescription3">Have a self-destruct timer</string>
@@ -388,7 +388,7 @@ If they look tha same on %1$s's device, end-to-end encryption is guaranteed."</s
 <string name="Error">Error</string>
 <string name="EventLog">Recent Actizzles</string>
 <string name="EventLogAdded">%1$s added %1$s</string>
-<string name="EventLogAllAdmins">All admins</string>
+<string name="EventLogAllAdmins">All boss ass niggas</string>
 <string name="EventLogAllEvents">All actions</string>
 <string name="EventLogAllMembers">All niggas</string>
 <string name="EventLogChangedChannelLink">%1$s changed tha channel link:</string>
@@ -407,12 +407,12 @@ If they look tha same on %1$s's device, end-to-end encryption is guaranteed."</s
 <string name="EventLogEditedMessages">%1$s edited this messizzle:</string>
 <string name="EventLogEmpty">"&lt;b>No actions here yet&lt;/b>
 
-The group's niggas and admins
+The group's niggas and boss ass niggas
 have not taken any service actions
 in tha last 48 hours."</string>
 <string name="EventLogEmptyChannel">"&lt;b>No actions here yet&lt;/b>
 
-The channel's admins
+The channel's boss ass niggas
 have not taken any service actions
 in tha last 48 hours."</string>
 <string name="EventLogEmptyFilter">Please specify at least one filter</string>
@@ -428,7 +428,7 @@ have been found."</string>
 <string name="EventLogFilterGroupInfo">Crews info</string>
 <string name="EventLogFilterGroupSettings">Crews settings</string>
 <string name="EventLogFilterLeavingMembers">Leaving niggas</string>
-<string name="EventLogFilterNewAdmins">New admins</string>
+<string name="EventLogFilterNewAdmins">New boss ass niggas</string>
 <string name="EventLogFilterNewMembers">New niggas</string>
 <string name="EventLogFilterNewRestrictions">New restrictions</string>
 <string name="EventLogFilterPinnedMessages">Pinned messizzles</string>
@@ -436,8 +436,8 @@ have been found."</string>
 
 Duration: %2$s"</string>
 <string name="EventLogGroupJoined">Thug %1$s got weed</string>
-<string name="EventLogInfoDetail">"This is a list of all service actions taken by tha group's niggas and admins \'n tha last 48 hours."</string>
-<string name="EventLogInfoDetailChannel">"This is a list of all service actions taken by tha channel's admins \'n tha last 48 hours."</string>
+<string name="EventLogInfoDetail">"This is a list of all service actions taken by tha group's niggas and boss ass niggas \'n tha last 48 hours."</string>
+<string name="EventLogInfoDetailChannel">"This is a list of all service actions taken by tha channel's boss ass niggas \'n tha last 48 hours."</string>
 <string name="EventLogInfoTitle">What is tha Recent Actizzles?</string>
 <string name="EventLogLeftChannel">%1$s got no weed</string>
 <string name="EventLogLeftGroup">%1$s got no weed</string>
@@ -448,7 +448,7 @@ Duration: %2$s"</string>
 <string name="EventLogPreviousGroupDescription">Previous description</string>
 <string name="EventLogPreviousLink">Previous link</string>
 <string name="EventLogPromoted">changed privileges of %1$s</string>
-<string name="EventLogPromotedAddAdmins">Add admins</string>
+<string name="EventLogPromotedAddAdmins">Add boss ass niggas</string>
 <string name="EventLogPromotedAddUsers">Add niggas</string>
 <string name="EventLogPromotedBanUsers">Ban niggas</string>
 <string name="EventLogPromotedChangeChannelInfo">Change channel Info</string>
@@ -483,7 +483,7 @@ Duration: %2$s"</string>
 <string name="EventLogToggledSignaturesOff">%1$s disabled signatures</string>
 <string name="EventLogToggledSignaturesOn">%1$s enabled signatures</string>
 <string name="EventLogUnpinnedMessages">%1$s unpinned messizzle</string>
-<string name="EventLogUnpromoted">removed admin privileges of %1$s</string>
+<string name="EventLogUnpromoted">removed boss ass nigga privileges of %1$s</string>
 <string name="Events">Evizzle</string>
 <string name="Everybody">All Y\'all</string>
 <string name="ExchangingKeys">Exchanging keys…</string>
@@ -532,18 +532,18 @@ Please copy scary error details below and submit them ta support@telegram.org so
 <string name="GlobalSearch">Global Search</string>
 <string name="GoogleFileLoading">Google Drive File is loading, please wait…</string>
 <string name="GoogleFileNotFound">Google Drive File not found</string>
-<string name="GoogleFileTooBig">Sorry, sending Google Drive files over 10MB is not supported yet</string>
-<string name="GoogleUnableToObtain">Unable ta obtain Google Drive file information</string>
+<string name="GoogleFileTooBig">Sorry, sending Google Drive fizzles over 10MB is not supported yet</string>
+<string name="GoogleUnableToObtain">Unable ta obtain Google Drive fizzle information</string>
 <string name="Grain">Grain</string>
 <string name="Group">Crew</string>
-<string name="GroupBots">Crews bots</string>
+<string name="GroupBots">Crews botsizzles</string>
 <string name="GroupChats">Crews Chizzats</string>
 <string name="GroupConvert">Convert ta Supergroup</string>
 <string name="GroupConvertHint">"To go over tha #%1$s# niggas limit, yo\' can convert yo\' group ta a #supergroup#. \'n supergroups:
 
 • tha  nigga limit is #%2$s# niggas
 • New niggas see all chizzat history
-• Admins delete messizzles f\o all
+• boss ass niggas delete messizzles f\o all
 • Notificizzles are muted by default"</string>
 <string name="GroupCreated">Crews created</string>
 <string name="GroupDontAdd">Do not add ta tha group</string>
@@ -561,7 +561,7 @@ Please copy scary error details below and submit them ta support@telegram.org so
 <string name="GroupsInCommon">"Groups \'n Common"</string>
 <string name="GroupsWillBeShownHere">"Groups \'n common will be shown here"</string>
 <string name="HangUp">Hang up</string>
-<string name="HasAdditionalPassword">"You have enabled Two-Step verificizzle.
+<string name="HasAdditionalPassword">"Yo\' have enabled Two-Step verificizzle.
 You'll need tha password yo\' set up here ta log \'n ta yo\' Gangstagram account."</string>
 <string name="HashtagDeleteHint">Delete hashtag from suggestions?</string>
 <string name="HavingTroubleAccessing">"Having trouble accessing yo\'e-mail
@@ -586,9 +586,15 @@ You'll need tha password yo\' set up here ta log \'n ta yo\' Gangstagram account
 <string name="InPrivateChats">In Private Chizzats</string>
 <string name="InReplyToX">In reply ta %1$s</string>
 <string name="IncludeMutedChats">"Muted chizzats \'n badge counter"</string>
+<string name="IncognitoKeyboard">Incognito Keyboard in Secret Chats</string>
+<string name="TweakSettings">Interfizzle</string>
+<string name="Tweaks">Interfizzle Optizzle</string>
+<string name="IncognitoKeyboardInfo">"Request keyboard ta not update any personalized data such as chattin' history n' personalized langizzle model based on what the fuck yo\' type in secret chats.
+ 
+be aware dat dis settin' be not a guarantee, n\' some imes may not respect diz shit."</string>
 <string name="Incoming">Incoming</string>
 <string name="IncomingCall">Incoming cizzal</string>
-<string name="InlineBot">Inline Bot</string>
+<string name="InlineBot">Inline Botizzle</string>
 <string name="Install">Instalizzle</string>
 <string name="Installed">Instalizzled</string>
 <string name="InstantView">Instant View</string>
@@ -612,7 +618,7 @@ You'll need tha password yo\' set up here ta log \'n ta yo\' Gangstagram account
 <string name="InviteLinkInvalid">Invitizzle link is invalid or not active anymore</string>
 <string name="InviteLinkRevoke">Revoke Link</string>
 <string name="InviteLinkShare">Share Link</string>
-<string name="InvitePrivacyHint">You can restrict who can add yo\' ta groups and channels with granular precision.</string>
+<string name="InvitePrivacyHint">Yo\' can restrict who can add yo\' ta groups and channels with granular precision.</string>
 <string name="InviteText">"Hey, let's switch ta %1$s:
 %2$s"</string>
 <string name="InviteTextCommon">"Hey, I'm using  Gangstagram ta chizzat – and so are %1$s of our other contizzles. Join us! Download it here: %2$s"</string>
@@ -637,15 +643,15 @@ You'll need tha password yo\' set up here ta log \'n ta yo\' Gangstagram account
 <string name="LeaveGroup">Leave crew</string>
 <string name="Linear">Linear</string>
 <string name="Link">Linkzizzle</string>
-<string name="LinkChannelHelp">"You can setup a public link on #Telegram#. If yo\' do, other people will be able ta find and follow yo\'channel by this link.
+<string name="LinkChannelHelp">"Yo\' can setup a public link on #Telegram#. If yo\' do, other people will be able ta find and follow yo\'channel by this link.
 
-You can use #a–z#, #0–9# and underscores.
+Yo\' can use #a–z#, #0–9# and underscores.
 Minimum length is #5# characters."</string>
 <string name="LinkChecking">Checking link availability…</string>
 <string name="LinkCurrent">"%1$s is yo\'current public link."</string>
-<string name="LinkGroupHelp">"You can setup a public link on #Telegram#. If yo\' do, other people will be able ta find and join yo\' group by this link.
+<string name="LinkGroupHelp">"Yo\' can setup a public link on #Telegram#. If yo\' do, other people will be able ta find and join yo\' group by this link.
 
-You can use #a–z#, #0–9# and underscores.
+Yo\' can use #a–z#, #0–9# and underscores.
 Minimum length is #5# characters."</string>
 <string name="LinkInUse">Sorry, this public link is already taken.</string>
 <string name="LinkInvalid">Sorry, this public link is invalid.</string>
@@ -686,7 +692,7 @@ __italic__
 [text](url)"</string>
 <string name="MarkdownTextOnly">Text Only</string>
 <string name="Masks">Maskizzle</string>
-<string name="MasksHint">You can add maskizzleizzle ta Phizzles and vidizzles yo\' send. ta do this, open tha phizzles editor before sending a phizzles.</string>
+<string name="MasksHint">Yo\' can add maskizzleizzle ta Phizzles and vidizzles yo\' send. ta do this, open tha phizzles editor before sending a phizzles.</string>
 <string name="MaxLux">Max Lux</string>
 <string name="MaxSize">Max size</string>
 <string name="MaximumLux">Maximum Lux: %1$s</string>
@@ -702,8 +708,8 @@ __italic__
 <string name="MemberBanGroup">This Nigga will be banned and removed from group.</string>
 <string name="MemberCanJoinChannel">%1$s will be able ta return ta channel.</string>
 <string name="MemberCanJoinGroup">%1$s will be able ta return ta group.</string>
-<string name="MemberCannotJoinChannel">%1$s will not be able ta return ta channel unless invited back by admin.</string>
-<string name="MemberCannotJoinGroup">%1$s will not be able ta return ta crew unless invited back by admin.</string>
+<string name="MemberCannotJoinChannel">%1$s will not be able ta return ta channel unless invited back by boss ass nigga.</string>
+<string name="MemberCannotJoinGroup">%1$s will not be able ta return ta crew unless invited back by boss ass nigga.</string>
 <string name="MemberCannotJoinRegularGroup">%1$s will not be able ta return ta crew unless invited by other nigga or joined by an invitizzle link.</string>
 <string name="MemberNotRestrictChannel">This Nigga is not a channel nigga.</string>
 <string name="MemberNotRestrictGroup">This Nigga is not a crew nigga.</string>
@@ -752,20 +758,20 @@ __italic__
 <string name="NewSecretChatWith">New Sizzecret Chizzat…</string>
 <string name="NightMode">Nigzzat Modizzle</string>
 <string name="No">No</string>
-<string name="NoAdminRulesHint">Specify at least one admin rule</string>
-<string name="NoAppToOpen">Application ta open this file not found</string>
+<string name="NoAdminRulesHint">Specify at least one boss ass nigga rule</string>
+<string name="NoAppToOpen">Application ta open this fizzle not found</string>
 <string name="NoArchiverdStickerSets">No archived sticka sets</string>
-<string name="NoAudiosYet">No audio files yet</string>
-<string name="NoCalls">"You didn't make any cizzals yet"</string>
+<string name="NoAudiosYet">No audio fizzles yet</string>
+<string name="NoCalls">"Yo\' didn't make any cizzals yet"</string>
 <string name="NoCameraAccess">This feature requires access ta camizzle.</string>
-<string name="NoChats">You have no chizzats</string>
+<string name="NoChats">Yo\' have no chizzats</string>
 <string name="NoChatsText">"\#No chizzats ta show#
 Invitizzle yo\'homies and family to join Telegram"</string>
 <string name="NoContacts">No contizzles ta display</string>
 <string name="NoDocumentsToShow">No documents ta show</string>
-<string name="NoDocumentsToShowInChannel">"Published documents and files
+<string name="NoDocumentsToShowInChannel">"Published documents and fizzles
 will be shown here."</string>
-<string name="NoDocumentsToShowInChat">"Share documents and files \'n this chizzat and
+<string name="NoDocumentsToShowInChat">"Share documents and fizzles \'n this chizzat and
 access them on any device yo\' have."</string>
 <string name="NoFiles">No Files</string>
 <string name="NoGIFs">No GIFs</string>
@@ -792,23 +798,23 @@ Found niggas will be shown here."</string>
 <string name="NoMessagesYet">No messizzles here yet…</string>
 <string name="NoMicrophoneAccess">This feature requires access ta microphone.</string>
 <string name="NoMusic">No Music</string>
-<string name="NoMusicFilesFound">No beats files found</string>
+<string name="NoMusicFilesFound">No beats fizzles found</string>
 <string name="NoMusicToShow">No beats ta show</string>
-<string name="NoMusicToShowInChannel">"Published beats and audio files
+<string name="NoMusicToShowInChannel">"Published beats and audio fizzles
 will be shown here."</string>
-<string name="NoMusicToShowInChat">"Share beats and audio files \'n this chizzat and
+<string name="NoMusicToShowInChat">"Share beats and audio fizzles \'n this chizzat and
 access them on any device yo\' have."</string>
 <string name="NoOtherActiveSessions">No Other Active Sessions</string>
-<string name="NoPermissionToKick">You have no permission ta kick this nigga</string>
+<string name="NoPermissionToKick">Yo\' have no permission ta kick this nigga</string>
 <string name="NoPhotos">No phizzless</string>
 <string name="NoRecentActions">"No recent activity \'n last 48 hours"</string>
-<string name="NoRecentFiles">No recent files</string>
+<string name="NoRecentFiles">No recent fizzles</string>
 <string name="NoRecoveryEmailWarning">"No, seriously.
 
 If yo\' forget yo\'password, yo\' will lose access ta yo\' Gangstagram account. There will be no way ta restore it."</string>
 <string name="NoRestrictions">No restrictions</string>
 <string name="NoRestrictionsHint">Specify at least one restriction rule</string>
-<string name="NoReturnToChat">You cannot return ta this chizzat</string>
+<string name="NoReturnToChat">Yo\' cannot return ta this chizzat</string>
 <string name="NoRightToCall">"Sorry, &lt;b>%1$s&lt;/b> doesn't accept cizzals."</string>
 <string name="NoStickerSets">No sticka sets installed</string>
 <string name="NoStorageAccess">This feature requires storage access.</string>
@@ -824,8 +830,8 @@ If yo\' forget yo\'password, yo\' will lose access ta yo\' Gangstagram account. 
 <string name="NothingFound">Nothing found</string>
 <string name="NotificationGuessContent">Background connection restricted</string>
 <string name="NotificationGuessText">Background connection restricted</string>
-<string name="NotificationGuessTicker">You have a new messizzle</string>
-<string name="NotificationGuessTitle">You have a new messizzle</string>
+<string name="NotificationGuessTicker">Yo\' have a new messizzle</string>
+<string name="NotificationGuessTitle">Yo\' have a new messizzle</string>
 <string name="Notifications">Notificizzles</string>
 <string name="NotificationsGooglePlayServices">Google Play services is needed f\o guaranteed notificizzles delivery.</string>
 <string name="NotifyAllMembers">Notify all niggas</string>
@@ -835,10 +841,10 @@ If yo\' forget yo\'password, yo\' will lose access ta yo\' Gangstagram account. 
 <string name="OnMobileNetwork">On Mobile Network</string>
 <string name="OnTheOffChance">On tha off chance</string>
 <string name="OneMember">1 nigga</string>
-<string name="OnlyAdmins">Only admins</string>
+<string name="OnlyAdmins">Only boss ass niggas</string>
 <string name="OnlyIfSilent">Only if silent</string>
 <string name="Open">Open</string>
-<string name="OpenBot">Open Bot</string>
+<string name="OpenBot">Open Botizzle</string>
 <string name="OpenChannel">Open Channizzle</string>
 <string name="OpenChat">Open Chizzat</string>
 <string name="OpenGroup">Open Group</string>
@@ -885,7 +891,7 @@ messages from multiple devices."</string>
 <string name="PaintModeFill">Fill color</string>
 <string name="PaintModeRect">Rectangle</string>
 <string name="PaintModeZoomArea">Free Movement</string>
-<string name="ParticipantLimitReached">You cannot add more participants ta this group</string>
+<string name="ParticipantLimitReached">Yo\' cannot add more participants ta this group</string>
 <string name="PasscodeItem">Passcizzle Lock</string>
 <string name="PasscodeSetting">Passcizzle</string>
 <string name="PasscodeTitle">Passcizzle Lock</string>
@@ -899,8 +905,8 @@ messages from multiple devices."</string>
 <string name="PastMonth">Past month</string>
 <string name="PastWeek">Past week</string>
 <string name="Pattern">Pattern</string>
-<string name="PaymentSuccessfullyPaid">You have just successfully transferred %1$s ta %2$s f\o %3$s</string>
-<string name="PaymentSuccessfullyPaidNoItem">You have just successfully transferred %1$s ta %2$s</string>
+<string name="PaymentSuccessfullyPaid">Yo\' have just successfully transferred %1$s ta %2$s f\o %3$s</string>
+<string name="PaymentSuccessfullyPaidNoItem">Yo\' have just successfully transferred %1$s ta %2$s</string>
 <string name="People">People</string>
 <string name="PhoneCall">Phone cizzal</string>
 <string name="PhoneNumber">Phone numba</string>
@@ -966,7 +972,7 @@ messages from multiple devices."</string>
 <string name="PrivateChats">Private Chizzats</string>
 <string name="PrivateGroup">Private group</string>
 <string name="ProcessingFile">Processing…</string>
-<string name="ProcessingFileWait">Processing files, please wait…</string>
+<string name="ProcessingFileWait">Processing fizzles, please wait…</string>
 <string name="ProfilePhoto">Profile phizzles</string>
 <string name="ProfilePhotos">Profile phizzless</string>
 <string name="ProgressApplyingSettings">Applying settings…</string>
@@ -975,7 +981,7 @@ messages from multiple devices."</string>
 <string name="ProgressCreateChannel">Creating channel…</string>
 <string name="ProgressJoiningChat">Joining chizzat…</string>
 <string name="ProgressLeavingChat">Leaving chizzat…</string>
-<string name="PromoteAdmin">Promote ta Admin</string>
+<string name="PromoteAdmin">Promote ta boss ass nigga</string>
 <string name="PromotedByX">Promoted by %1$s</string>
 <string name="PromotedByYou">Promoted by you</string>
 <string name="Proxy">Proxyzzle</string>
@@ -983,7 +989,7 @@ messages from multiple devices."</string>
 <string name="ProxyEnable">Enable</string>
 <string name="ProxyPassword">Password</string>
 <string name="ProxyPasswordHint">Password (optional)</string>
-<string name="ProxyQuestion">"Are yo\' sure yo\' want ta enable this proxy?&lt;br/>&lt;br/>%1$s&lt;br/>&lt;br/>You can change yo\'proxyzzle server lata \'n tha Settings (Data n\' Storizzle)."</string>
+<string name="ProxyQuestion">"Are yo\' sure yo\' want ta enable this proxy?&lt;br/>&lt;br/>%1$s&lt;br/>&lt;br/>Yo\' can change yo\'proxyzzle server lata \'n tha Settings (Data n\' Storizzle)."</string>
 <string name="ProxySettings">Proxyzzle settings</string>
 <string name="ProxyUsername">Username</string>
 <string name="ProxyUsernameHint">Username (optional)</string>
@@ -991,12 +997,12 @@ messages from multiple devices."</string>
 <string name="PublicChannel">Public Channizzle</string>
 <string name="PublicChannelHint">"Public channels can be found \'n search, anyone can join them."</string>
 <string name="PublicChannelLinkHint">"People can share this link with others and find yo\'channel using  Gangstagram search."</string>
-<string name="PublicChatAccessFailed">You have been restricted from accessing @%1$s</string>
+<string name="PublicChatAccessFailed">Yo\' have been restricted from accessing @%1$s</string>
 <string name="PublicGroup">Public group</string>
 <string name="PublicLink">Public Link</string>
-<string name="PublicLinkIsInvalid">You can use only a–z, 0–9 and underscores f\o a  Gangstagram public link.</string>
+<string name="PublicLinkIsInvalid">Yo\' can use only a–z, 0–9 and underscores f\o a  Gangstagram public link.</string>
 <string name="PublicLinkTooShort">Public link is too short</string>
-<string name="QAddBot">Add bot ta this group?</string>
+<string name="QAddBot">Add botizzle ta this group?</string>
 <string name="QAddXToChannel">Add %1$s ta tha channel?</string>
 <string name="QAddXToGroup">Add %1$s ta tha group?</string>
 <string name="QBlockX">Pop %1$s?</string>
@@ -1057,8 +1063,8 @@ messages from multiple devices."</string>
 <string name="RestrictedByX">Restricted by %1$s</string>
 <string name="RestrictedByYou">Restricted by you</string>
 <string name="RestrictedWillBeShownHere">Restricted niggas gotta be shown here</string>
-<string name="RevokeAdminRights">Revoke Admin Rights</string>
-<string name="RightAddNewAdmins">Add New Admins</string>
+<string name="RevokeAdminRights">Revoke boss ass nigga Rights</string>
+<string name="RightAddNewAdmins">Add New boss ass niggas</string>
 <string name="RightBanUsers">Ban Users</string>
 <string name="RightChangeChannelInfo">Change Channizzle Info</string>
 <string name="RightChangeGroupInfo">Change Crews Info</string>
@@ -1087,7 +1093,7 @@ messages from multiple devices."</string>
 <string name="ScreenCapture">Allow Screen Capture</string>
 <string name="ScreenCaptureInfo">"If enabled, yo\' can take screenshots of tha app, but tha system will display yo\'chizzats \'n tha task switcher even when tha passcizzle is on.
 
-You may need ta restart tha app f\o this ta take effect."</string>
+Yo\' may need ta restart tha app f\o this ta take effect."</string>
 <string name="SdkVersionLow">"This feature is not available on yo\'Android version, sorry."</string>
 <string name="Search">"Look fo' weed"</string>
 <string name="SearchForImages">Search f\o images</string>
@@ -1095,11 +1101,11 @@ You may need ta restart tha app f\o this ta take effect."</string>
 <string name="SearchPeople">Search People</string>
 <string name="SecretChat">Sizzecret Chizzat</string>
 <string name="SecretChatCancelled">Sizzecret chizzat cancelled</string>
-<string name="SecretChatContextBotAlert">"Please note that inline bots are provided by third-party developers. f\o tha bot ta work, tha symbols yo\' type after tha bot's usaname are sent ta tha respective developer."</string>
+<string name="SecretChatContextBotAlert">"Please note that inline botizzles are provided by third-party developers. f\o tha botizzle ta work, tha symbols yo\' type after tha bot's usaname are sent ta tha respective developer."</string>
 <string name="SecretChatFeatureUnsupported">%1$s  Gangstagram client does not support this feature. Recommend installing an update.</string>
 <string name="SecretChats">Sizzecret Chizzats</string>
-<string name="SecretFiles">Sizzecret medizzle and files</string>
-<string name="SecretFilesWithHint">Sizzecret medizzle and files (warning: yo\' will loose those files)</string>
+<string name="SecretFiles">Sizzecret medizzle and fizzles</string>
+<string name="SecretFilesWithHint">Sizzecret medizzle and fizzles (warning: yo\' will loose those fizzles)</string>
 <string name="SecretLinkPreviewAlert">"Would yo\' like ta enable extended link previzzles \'n Sizzecret Chizzats? Note that link previzzles are generated on  Gangstagram servers."</string>
 <string name="SecretLinkPreviews">"Link Previzzles \'n Sizzecret Chizzats"</string>
 <string name="Security">Security</string>
@@ -1119,7 +1125,7 @@ You may need ta restart tha app f\o this ta take effect."</string>
 <string name="SendMediaHint">Send medizzle without compression</string>
 <string name="SendMessageTo">Send dis weed to…</string>
 <string name="SendMessageToX">Share dis weed with %1$s</string>
-<string name="SendMusicHint">Send audio and beats files</string>
+<string name="SendMusicHint">Send audio and beats fizzles</string>
 <string name="SendSticker">Send Sticka</string>
 <string name="SendTo">Shar dis weed wit</string>
 <string name="SendXPhotos">Send %1$s phizzles%2$s</string>
@@ -1134,9 +1140,9 @@ Don't take it,  Gangstagram will process everything automatically."</string>
 <string name="Server">Server</string>
 <string name="ServiceNetworkReceiver">This receiver helps determining current connection state f\o receiving messizzle notificizzles.</string>
 <string name="Sessions">Sessions</string>
-<string name="SessionsDesc">"You can log \'n ta  Gangstagram from other mobile, tablet and desktop devices, using tha same phone numba. All yo\'data will be instantly synchronized."</string>
+<string name="SessionsDesc">"Yo\' can log \'n ta  Gangstagram from other mobile, tablet and desktop devices, using tha same phone numba. All yo\'data will be instantly synchronized."</string>
 <string name="SetAdditionalPassword">Set additional password</string>
-<string name="SetAdditionalPasswordDesc">"You can set a password that will be required when yo\' log \'n on a new device \'n addition ta tha code yo\' get \'n tha SMS."</string>
+<string name="SetAdditionalPasswordDesc">"Yo\' can set a password that will be required when yo\' log \'n on a new device \'n addition ta tha code yo\' get \'n tha SMS."</string>
 <string name="SetAsCurrent">Set as current</string>
 <string name="SetBio">Set biographizzles</string>
 <string name="SetRecoveryEmail">Set Recovery E-Mail</string>
@@ -1150,7 +1156,7 @@ Don't take it,  Gangstagram will process everything automatically."</string>
 <string name="SharePhoto">Share phizzles</string>
 <string name="ShareYourLocation">"Share yo\'location?"</string>
 <string name="ShareYourLocationDesc">"This will send yo\'current location ta tha bot."</string>
-<string name="ShareYourLocationInlineDesc">"This bot would like ta know yo\'location each time yo\' send it a request. This can be used ta provide location-specific results."</string>
+<string name="ShareYourLocationInlineDesc">"This botizzle would like ta know yo\'location each time yo\' send it a request. This can be used ta provide location-specific results."</string>
 <string name="ShareYourPhoneNumber">"Share Yo\' phone numba?"</string>
 <string name="ShareYourPhoneNumberDesc">"\@%1$s will know Yo\' phone numba.
 
@@ -1163,7 +1169,7 @@ This can be useful f\o integration with other services."</string>
 <string name="ShowForwardOptions">Show snitch options</string>
 <string name="ShowInChat">"Show \'n Chizzat"</string>
 <string name="SignMessages">Sign Messages</string>
-<string name="SignMessagesHint">Add names of tha admins ta tha messizzles they post.</string>
+<string name="SignMessagesHint">Add names of tha boss ass niggas ta tha messizzles they post.</string>
 <string name="SilentBroadcast">Silent broadcast</string>
 <string name="SinceNotProvided">"Since yo\' haven't provided a recovery e-mail when setting up yo\'password, yo\'remaining options are either ta remember yo\'password or ta reset yo\'account."</string>
 <string name="SizeLimitDesc">Medizzle gotta not autodownload regardless any otha settings. Dem values are used when data sava be off.</string>
@@ -1190,9 +1196,9 @@ This can be useful f\o integration with other services."</string>
 <string name="Sticker">Sticker</string>
 <string name="StickerInfo">Sticker Info</string>
 <string name="Stickers">Stikas</string>
-<string name="StickersArchiveHint">You can have up ta 200 sticka sets installed. Unused stickas are archived when yo\' install new sets.</string>
+<string name="StickersArchiveHint">Yo\' can have up ta 200 sticka sets installed. Unused stickas are archived when yo\' install new sets.</string>
 <string name="Storage">Storizzle</string>
-<string name="StorageHint">"Phizzles, vidizzles and other files from cloud chizzats that yo\' have #not accessed# during this period will be removed from this device ta save disk space.
+<string name="StorageHint">"Phizzles, vidizzles and other fizzles from cloud chizzats that yo\' have #not accessed# during this period will be removed from this device ta save disk space.
 
 All medizzle will stay \'n tha  Gangstagram cloud and can be re-downloaded if yo\' need it again."</string>
 <string name="StorageLocation">Locizzle</string>
@@ -1251,7 +1257,7 @@ Tap Settings > Permissions, and turn contizzles on"</string>
 <string name="Tomorrow">Tomorrow</string>
 <string name="TooManyPublicChannels">"Sorry, yo\' have created too many public channels. yo\' can either create a private channel or delete one of yo\'existing channels first."</string>
 <string name="TooManyPublicLinks">"Sorry, yo\' have created too many public links. Try deleting or making some of yo\' groups or channels private."</string>
-<string name="TooManyStickerSets">You have too many stickas installed. Try deleting some before installing</string>
+<string name="TooManyStickerSets">Yo\' have too many stickas installed. Try deleting some before installing</string>
 <string name="Total">Total</string>
 <string name="TotalBytesReceived">Total bytes received</string>
 <string name="TotalBytesSent">Total bytes sent</string>
@@ -1295,7 +1301,7 @@ Tap Settings > Permissions, and turn contizzles on"</string>
 <string name="UseProxyForCalls">Use proxyzzle f\o cizzals</string>
 <string name="UseProxyForCallsDesc">"Proxyzzle servers may degrade tha quality of yo\'calls."</string>
 <string name="UseRearRoundVideos">Start with rear-facing camizzle</string>
-<string name="UserIsAlreadyAdmin">Nigga is already admin</string>
+<string name="UserIsAlreadyAdmin">Nigga is already boss ass nigga</string>
 <string name="UserIsAlreadyInChat">"Nigga is already \'n chizzat"</string>
 <string name="UserPrivacyRestricted">"Sorry,  nigga restricted this action \'n his privacy settings."</string>
 <string name="UserRestricted">Sorry, yo\' are not allowed ta do this.</string>
@@ -1305,16 +1311,16 @@ Tap Settings > Permissions, and turn contizzles on"</string>
 <string name="UsernameAvailable">%1$s is available.</string>
 <string name="UsernameChecking">Checking usaname…</string>
 <string name="UsernameCurrent">"%1$s is yo\'current usaname."</string>
-<string name="UsernameHelp">"You can choose a usaname on #Telegram#. If yo\' do, other people will be able ta find yo\' by this usaname and contizzle yo\' without knowing Yo\' phone numba.
+<string name="UsernameHelp">"Yo\' can choose a usaname on #Telegram#. If yo\' do, other people will be able ta find yo\' by this usaname and contizzle yo\' without knowing Yo\' phone numba.
 
-You can use #a–z#, #0–9# and underscores.
+Yo\' can use #a–z#, #0–9# and underscores.
 Minimum length is #5# characters."</string>
 <string name="UsernameInUse">Sorry, this usaname is already taken.</string>
 <string name="UsernameInvalid">Sorry, this usaname is invalid.</string>
 <string name="UsernameInvalidLong">The usaname must not exceed 32 characters.</string>
 <string name="UsernameInvalidShort">A usaname must have at least 5 characters.</string>
 <string name="UsernameInvalidStartNumber">"Sorry, an usaname can't start with a numba."</string>
-<string name="UsernameIsInvalid">You can use only a–z, 0–9 and underscores f\o a  Gangstagram usaname.</string>
+<string name="UsernameIsInvalid">Yo\' can use only a–z, 0–9 and underscores f\o a  Gangstagram usaname.</string>
 <string name="UsernameNotOccupied">Chizzat @%1$s not found</string>
 <string name="UsernameNotOccupiedUnknown">Chizzat with specified usaname not found</string>
 <string name="Users">Users</string>
@@ -1327,7 +1333,7 @@ Minimum length is #5# characters."</string>
 <string name="VideoMessages">Vidizzle messizzles</string>
 <string name="VideoPlaybackError">Failed ta play vidizzle, see logs f\o details.</string>
 <string name="Videos">Vidizzles</string>
-<string name="ViewAdminRights">View Admin Rights</string>
+<string name="ViewAdminRights">View boss ass nigga Rights</string>
 <string name="ViewGroupsInCommon">"View groups \'n common"</string>
 <string name="ViewMessage">View Message</string>
 <string name="ViewPack">View Pack</string>
@@ -1335,7 +1341,7 @@ Minimum length is #5# characters."</string>
 <string name="Vignette">Vignette</string>
 <string name="Violence">Gangsta shit</string>
 <string name="Voice">Voicizzle</string>
-<string name="VoiceCallPrivacyDesc">You can restrict who can cizzal yo\' with granular precision</string>
+<string name="VoiceCallPrivacyDesc">Yo\' can restrict who can cizzal yo\' with granular precision</string>
 <string name="VoiceCalls">Voicizzle cizzals</string>
 <string name="VoiceMessage">Voicizzle Message</string>
 <string name="VoiceMessages">Voicizzle messizzles</string>
@@ -1351,8 +1357,8 @@ Minimum length is #5# characters."</string>
 <string name="Wallpapers">Wallpapers</string>
 <string name="Warmth">Warmth</string>
 <string name="Warning">Warning</string>
-<string name="WhatThisAdminCanDo">What this admin can do?</string>
-<string name="WhatThisBotCanDo">What this bot can do?</string>
+<string name="WhatThisAdminCanDo">What this boss ass nigga can do?</string>
+<string name="WhatThisBotCanDo">What this botizzle can do?</string>
 <string name="WhatThisUserCanDo">What this  nigga can do?</string>
 <string name="WhenUsingMobileData">When switching ta mobile data</string>
 <string name="WhenUsingMobileDataOrRoaming">When switching ta mobile data or roamin\'</string>
@@ -1387,7 +1393,7 @@ Minimum length is #5# characters."</string>
 <string name="XPinnedText">%1$s pinned \"%2$s\"</string>
 <string name="XPinnedTrack">%1$s pinned a track</string>
 <string name="XPinnedY">%1$s pinned a %2$s</string>
-<string name="XPostedAFile">%1$s posted a file</string>
+<string name="XPostedAFile">%1$s posted a fizzle</string>
 <string name="XPostedAGIF">%1$s posted a GIF</string>
 <string name="XPostedAMessage">%1$s posted a messizzle</string>
 <string name="XPostedAPhoto">%1$s posted a phizzles</string>
@@ -1397,13 +1403,13 @@ Minimum length is #5# characters."</string>
 <string name="XRemovedGroupStickerSet">%1$s removed crew sticka set</string>
 <string name="XScoredY">%1$s scored %2$s</string>
 <string name="XScoredYInZ">"%1$s scored %2$s \'n %3$s"</string>
-<string name="XSentAFile">%1$s sent a file</string>
+<string name="XSentAFile">%1$s sent a fizzle</string>
 <string name="XSentAGIF">%1$s sent a GIF</string>
 <string name="XSentAMessage">%1$s sent a messizzle</string>
 <string name="XSentAPhoto">%1$s sent a phizzles</string>
 <string name="XSentAVideo">%1$s sent a vidizzle</string>
 <string name="XSentAVoice">%1$s sent a voice messizzle</string>
-<string name="XSentYouAFile">%1$s sent yo\' a file</string>
+<string name="XSentYouAFile">%1$s sent yo\' a fizzle</string>
 <string name="XSentYouAGIF">%1$s sent yo\' a GIF</string>
 <string name="XSentYouAMessage">%1$s sent yo\' a messizzle</string>
 <string name="XSentYouAPhoto">%1$s sent yo\' a phizzles</string>
@@ -1415,19 +1421,19 @@ Minimum length is #5# characters."</string>
 <string name="Yes">Yes</string>
 <string name="YesThanks">Yes (thank you)</string>
 <string name="Yesterday">Yesterday</string>
-<string name="YouCantBanThis">You cannot ban this usa</string>
-<string name="YouCantForwardMore">"You can't forward more than %1$s messizzles at once, sorry"</string>
-<string name="YouCantInviteMembers">"You can't add niggas ta this chizzat"</string>
-<string name="YouCantPromoteThis">You cannot promote this usa</string>
-<string name="YouCantSendMessages">"You can't send messizzles ta this chizzat"</string>
-<string name="YouDisabledTimer">You disabled self-destruct timer</string>
-<string name="YouHaveNewMessage">You have a new messizzle</string>
-<string name="YouSetTimer">You set tha self-destruct timer ta %1$s</string>
-<string name="YouTookAScreenshot">You took a screenshot</string>
-<string name="YouWereKicked">you were kicked</string>
+<string name="YouCantBanThis">Yo\' cannot ban this usa</string>
+<string name="YouCantForwardMore">"Yo\' can't forward more than %1$s messizzles at once, sorry"</string>
+<string name="YouCantInviteMembers">"Yo\' can't add niggas ta this chizzat"</string>
+<string name="YouCantPromoteThis">Yo\' cannot promote this usa</string>
+<string name="YouCantSendMessages">"Yo\' can't send messizzles ta this chizzat"</string>
+<string name="YouDisabledTimer">Yo\' disabled self-destruct timer</string>
+<string name="YouHaveNewMessage">Yo\' have a new messizzle</string>
+<string name="YouSetTimer">Yo\' set tha self-destruct timer ta %1$s</string>
+<string name="YouTookAScreenshot">Yo\' took a screenshot</string>
+<string name="YouWereKicked">yo\' were kicked</string>
 <string name="YourEmail">"Yo\'E-Mail"</string>
 <string name="YourGroups">"Yo\'Groups"</string>
-<string name="YourName">"Yo\\'name"</string>
+<string name="YourName">"Yo\'r name"</string>
 <string name="YourPassword">"Yo\'Password"</string>
 <string name="YourPhone">"Yo\' phone"</string>
 <string name="YoutubeRotateHint">"PS: Rotate yo\'screen ta minimize player"</string>
@@ -1509,7 +1515,7 @@ The Gangstagram Team"</string>
 <string name="loginVerify">Two-Step Verificizzle</string>
 <string name="mic_hint">"Please allow  Gangstagram X ta use microphone \'n System Settings > Apps >  Gangstagram X > Permissions"</string>
 <string name="noAccessToMessages">has no access ta messizzles</string>
-<string name="notInChat">"you are not \'n chizzat"</string>
+<string name="notInChat">"yo\' are not \'n chizzat"</string>
 <string name="of">of</string>
 <string name="online">"hustlin\'"</string>
 <string name="passcode_auto">Auto-Lock</string>
@@ -1549,7 +1555,7 @@ Note: if yo\' forget tha passcizzle, you´ll need ta delete and reinstall tha ap
 <string name="usernameOccupied">This usaname is already taken by someone</string>
 <string name="username_hint">Press ta set up</string>
 <string name="username_set">Change usaname</string>
-<string name="xAdmins">%1$s admin%2$s</string>
+<string name="xAdmins">%1$s boss ass nigga%2$s</string>
 <string name="xAudios">%1$s audio%2$s</string>
 <string name="xBanned">%1$s banned</string>
 <string name="xCalls">%1$s cizzal%2$s</string>
@@ -1557,7 +1563,7 @@ Note: if yo\' forget tha passcizzle, you´ll need ta delete and reinstall tha ap
 <string name="xContacts">%1$s contizzle%2$s</string>
 <string name="xContactsJoined">%1$s contizzle%2$s on Telegram</string>
 <string name="xDays">%1$s day%2$s</string>
-<string name="xFiles">%1$s file%2$s</string>
+<string name="xFiles">%1$s fizzle%2$s</string>
 <string name="xFollowers">%1$s follower%2$s</string>
 <string name="xGIFs">%1$s GIF%2$s</string>
 <string name="xGroups">%1$s group%2$s</string>
@@ -1570,7 +1576,7 @@ Note: if yo\' forget tha passcizzle, you´ll need ta delete and reinstall tha ap
 <string name="xMin">%1$s min</string>
 <string name="xMinutes">%1$s minute%2$s</string>
 <string name="xMonths">%1$s month%2$s</string>
-<string name="xMusicFiles">%1$s beats file%2$s</string>
+<string name="xMusicFiles">%1$s beats fizzle%2$s</string>
 <string name="xNewMessages">%1$s new messizzle%2$s</string>
 <string name="xOnline">%1$s online</string>
 <string name="xOthers">%1$s other%2$s</string>
@@ -1581,7 +1587,7 @@ Note: if yo\' forget tha passcizzle, you´ll need ta delete and reinstall tha ap
 <string name="xSeconds">%1$s second%2$s</string>
 <string name="xSessions">%1$s session%2$s</string>
 <string name="xSharedContacts">%1$s shared contizzle%2$s</string>
-<string name="xSharedFiles">%1$s shared file%2$s</string>
+<string name="xSharedFiles">%1$s shared fizzle%2$s</string>
 <string name="xSharedGIFs">%1$s shared GIF%2$s</string>
 <string name="xSharedMessages">%1$s shared messizzle%2$s</string>
 <string name="xSharedPhotos">%1$s shared phizzles%2$s</string>
