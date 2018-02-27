@@ -24,7 +24,7 @@ before_install:
   - chmod +x gradlew
   - echo $unencrypt | gpg --passphrase-fd 0 TGXMods.jks.gpg
 
-script: ./gradlew assembleDebug
+script: ./gradlew assembleRelease
 
 install:
   - sdkmanager --list || true # Debug / Observation
