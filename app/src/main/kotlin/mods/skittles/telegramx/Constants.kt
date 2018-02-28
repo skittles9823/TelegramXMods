@@ -1,4 +1,4 @@
-package substratum.theme.template
+package mods.skittles.telegramx
 
 import mods.skittles.telegramx.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
 
