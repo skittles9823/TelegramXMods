@@ -1,4 +1,4 @@
-package substratum.theme.template
+package mods.skittles.telegramx
 
 import android.app.Activity
 import android.content.Context
@@ -14,22 +14,22 @@ import com.github.javiersantos.piracychecker.enums.InstallerID
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerCallback
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerError
 import com.github.javiersantos.piracychecker.enums.PirateApp
-import substratum.theme.template.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
-import substratum.theme.template.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
-import substratum.theme.template.Constants.MINIMUM_SUBSTRATUM_VERSION
-import substratum.theme.template.Constants.OTHER_THEME_SYSTEMS
-import substratum.theme.template.Constants.SUBSTRATUM_FILTER_CHECK
-import substratum.theme.template.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
-import substratum.theme.template.ThemeFunctions.checkSubstratumIntegrity
-import substratum.theme.template.ThemeFunctions.getSelfSignature
-import substratum.theme.template.ThemeFunctions.getSelfVerifiedIntentResponse
-import substratum.theme.template.ThemeFunctions.getSelfVerifiedPirateTools
-import substratum.theme.template.ThemeFunctions.getSelfVerifiedThemeEngines
-import substratum.theme.template.ThemeFunctions.getSubstratumFromPlayStore
-import substratum.theme.template.ThemeFunctions.getSubstratumUpdatedResponse
-import substratum.theme.template.ThemeFunctions.hasOtherThemeSystem
-import substratum.theme.template.ThemeFunctions.isCallingPackageAllowed
-import substratum.theme.template.ThemeFunctions.isPackageInstalled
+import mods.skittles.telegramx.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import mods.skittles.telegramx.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
+import mods.skittles.telegramx.Constants.MINIMUM_SUBSTRATUM_VERSION
+import mods.skittles.telegramx.Constants.OTHER_THEME_SYSTEMS
+import mods.skittles.telegramx.Constants.SUBSTRATUM_FILTER_CHECK
+import mods.skittles.telegramx.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
+import mods.skittles.telegramx.ThemeFunctions.checkSubstratumIntegrity
+import mods.skittles.telegramx.ThemeFunctions.getSelfSignature
+import mods.skittles.telegramx.ThemeFunctions.getSelfVerifiedIntentResponse
+import mods.skittles.telegramx.ThemeFunctions.getSelfVerifiedPirateTools
+import mods.skittles.telegramx.ThemeFunctions.getSelfVerifiedThemeEngines
+import mods.skittles.telegramx.ThemeFunctions.getSubstratumFromPlayStore
+import mods.skittles.telegramx.ThemeFunctions.getSubstratumUpdatedResponse
+import mods.skittles.telegramx.ThemeFunctions.hasOtherThemeSystem
+import mods.skittles.telegramx.ThemeFunctions.isCallingPackageAllowed
+import mods.skittles.telegramx.ThemeFunctions.isPackageInstalled
 import java.io.File
 import java.util.*
 

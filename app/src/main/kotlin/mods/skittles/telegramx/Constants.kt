@@ -1,6 +1,6 @@
 package substratum.theme.template
 
-import substratum.theme.template.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
+import mods.skittles.telegramx.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
 
 object Constants {
 
