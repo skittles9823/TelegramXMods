@@ -16,7 +16,7 @@ object Constants {
 
     // Custom message on theme launch, see theme_strings.xml for changing the dialog content
     // Set SHOW_DIALOG_REPEATEDLY to true if you want the dialog to be showed on every theme launch
-    const val SHOW_LAUNCH_DIALOG = false
+    const val SHOW_LAUNCH_DIALOG = true
     const val SHOW_DIALOG_REPEATEDLY = false
 
     // Blacklisted APKs to prevent theme launching, these include simple regex formatting, without

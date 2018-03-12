@@ -6,8 +6,8 @@
       ~ Custom dialog message on theme launch.
       ~ Add word in launch_dialog_negative to add a cancel button on the dialog
       -->
-    <string name="launch_dialog_title">Dialog title</string>
-    <string name="launch_dialog_content">Dialog content</string>
-    <string name="launch_dialog_positive">OK</string>
-    <string name="launch_dialog_negative"></string>
+    <string name="launch_dialog_title">OwO</string>
+    <string name="launch_dialog_content">Enjoy the theme</string>
+    <string name="launch_dialog_positive">Cool!</string>
+    <string name="launch_dialog_negative">I go away ;_;</string>
 </resources>
