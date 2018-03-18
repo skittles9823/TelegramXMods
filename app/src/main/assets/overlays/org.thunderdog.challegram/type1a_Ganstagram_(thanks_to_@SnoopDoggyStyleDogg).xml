@@ -119,7 +119,8 @@ Example: 23 y.o. nigga from San Francisco."</string>
 <string name="BotAdminsHint">Yo\' can add botizzles as boss ass niggaistrators f\o automatic messizzles</string>
 <string name="BotIsDown">Bot is not responding. Please try again lata.</string>
 <string name="BotIsDownSpecific">%1$s is not responding. Please try again lata.</string>
-<string name="Bots">Bots</string>
+<string name="Bots">Stupid Bots</string>
+<string name="BotsAndWebsites">Stupid Bots and Websites</string>
 <string name="Broadcast">Broadcast</string>
 <string name="BubblesMode">Bubzzles Modizzle</string>
 <string name="Busy">Fucking</string>
@@ -242,8 +243,8 @@ Example: 23 y.o. nigga from San Francisco."</string>
 <string name="Contacts">Contizzles</string>
 <string name="ContactsInCommon">Contizzles: %1$s</string>
 <string name="ContactsOnTelegramMore">"%1$s and %2$s more of yo\'contizzles are using Telegram"</string>
-<string name="ContactsOnTelegramSeveral">%1$s and %2$s are using Telegram</string>
-<string name="ContactsOnTelegramSingle">%1$s is using Telegram</string>
+<string name="ContactsOnTelegramSeveral">%1$s and %2$s are using Gangstagram</string>
+<string name="ContactsOnTelegramSingle">%1$s is using Gangstagram</string>
 <string name="Continue">Continue</string>
 <string name="Contrast">Contrast</string>
 <string name="Convert">Convert</string>
@@ -287,7 +288,7 @@ Don't forget ta clear logs before capturing tha bug."</string>
 <string name="Default">Default</string>
 <string name="Delete">Ditch dis shit</string>
 <string name="DeleteAllFromX">Delete all from %1$s</string>
-<string name="DeleteAndLeave">Delete and exit</string>
+<string name="DeleteAndLeave">Delete dis shit n\' exit</string>
 <string name="DeleteAndLeaveHint">Delete messizzles and exit</string>
 <string name="DeleteAndStop">Delete and Stop</string>
 <string name="DeleteChat">Delete chizzat</string>
@@ -634,7 +635,7 @@ be aware dat dis settin' be not a guarantee, n\' some imes may not respect diz s
 <string name="Language">Language</string>
 <string name="LastName">Last name (optional)</string>
 <string name="LastSeen">Last Hustlin\'</string>
-<string name="LastSeenImportant">"Important: yo\' won't be able ta see Last Hustlin\' times f\o people with whom yo\' don't share yo\'Last Hustlin\' time. Approximate Last Hustlin\' will be shown instead (recently, within a week, within a month)."</string>
+<string name="LastSeenImportant">"Important: yo\' won't be able ta see Last Hustlin\' times f\o people with whom yo\' don't share yo\' Last Hustlin\' time. Approximate Last Hustlin\' will be shown instead (recently, within a week, within a month)."</string>
 <string name="Later">Later</string>
 <string name="Leave">Leave</string>
 <string name="LeaveChannel">Leave channel</string>
@@ -674,6 +675,8 @@ Minimum length is #5# characters."</string>
 <string name="LocalDatabase">Local Database</string>
 <string name="Locating">Waiting f\o location…</string>
 <string name="Location">Locizzle</string>
+<string name="LoggedInWithTelegram">Logged in wit' Gangstagram</string>
+<string name="LoggedInWithTelegramDescription">Websites Where the fuck yo\' used Gangstagram ta log in.</string>
 <string name="LogOut">Bail</string>
 <string name="Long">Long</string>
 <string name="LuxBright">Bright</string>
@@ -681,7 +684,7 @@ Minimum length is #5# characters."</string>
 <string name="MakeCall">Make cizzal</string>
 <string name="ManageChannel">Manage Channizzle</string>
 <string name="ManageGroup">Manage Group</string>
-<string name="ManyContactsJoined">1000+ contizzles on Telegram</string>
+<string name="ManyContactsJoined">1000+ contizzles on Gangstagram</string>
 <string name="Markdown">Markdizzle</string>
 <string name="MarkdownDisabled">Disabled</string>
 <string name="MarkdownEnabled">Enabled</string>
@@ -913,7 +916,7 @@ messages from multiple devices."</string>
 <string name="PhoneNumberAlert">"All yo\' Gangstagram Contizzles will get yo\' new numba added ta their address book, provided they had yo\' old numba n' ya haven't blocked dem \'n Gangstagram."</string>
 <string name="PhoneNumberHelp">"Yo\'can change yo\' Gangstagram numba here. yo\' account n' all yo\' cloud data — lyrics, medizzle, contizzles, etc. will be moved ta tha new numba.
 
-**Important:** all yo\' Gangstagram Contizzles will get yo\' **new numba** added ta their address book, provided they had yo\' old numba n' ya haven't blocked dem \'n Gangstagram #Important:# all yo\' Gangstagram contizzles will get yo\'#new numba# added ta their address book, provided they had yo\'old numba and yo\' haven't blocked them \'n Telegram."</string>
+**Important:** all yo\' Gangstagram Contizzles will get yo\' **new numba** added ta their address book, provided they had yo\' old numba n' ya haven't blocked dem \'n Gangstagram #Important:# all yo\' Gangstagram contizzles will get yo\'#new numba# added ta their address book, provided they had yo\'old numba and yo\' haven't blocked them \'n Gangstagram."</string>
 <string name="PhoneNumberInUse">"Sorry, this numba is already \'n use."</string>
 <string name="Photo">Phizzle</string>
 <string name="PhotoHasBeenSavedToGallery">phizzle has been saved ta gallery</string>
@@ -962,9 +965,9 @@ messages from multiple devices."</string>
 <string name="PrivacyCallsContacts">Only contizzles%1$s can cizzal you</string>
 <string name="PrivacyCallsEverybody">Everybody%1$s can cizzal you</string>
 <string name="PrivacyCallsNobody">Nobody%1$s can cizzal you</string>
-<string name="PrivacyLastSeenContacts">"Only contizzles%1$s can see yo\'Last Hustlin\'"</string>
-<string name="PrivacyLastSeenEverybody">"Everybody%1$s can see yo\'Last Hustlin\'"</string>
-<string name="PrivacyLastSeenNobody">"Nobody%1$s can see yo\'Last Hustlin\'"</string>
+<string name="PrivacyLastSeenContacts">"Only contizzles%1$s can see yo\' Last Hustlin\'"</string>
+<string name="PrivacyLastSeenEverybody">"Everybody%1$s can see yo\' Last Hustlin\'"</string>
+<string name="PrivacyLastSeenNobody">"Nobody%1$s can see yo\' Last Hustlin\'"</string>
 <string name="Private">Private</string>
 <string name="PrivateChannel">Private Channizzle</string>
 <string name="PrivateChannelHint">Private channels can only be joined via an invitizzle link.</string>
@@ -1210,7 +1213,7 @@ All medizzle will stay \'n tha  Gangstagram cloud and can be re-downloaded if yo
 <string name="SuggestInvitingUserWithImporters">"%1$s is not on  Gangstagram yet. Would yo\' like ta invitizzle them via SMS? yo\' have %2$s contizzles \'n common."</string>
 <string name="SymbolsAndObjects">Symbols &amp; Objects</string>
 <string name="SyncHint">"To help yo\' connect with homies and family, allow %1$s access ta yo\'contizzles."</string>
-<string name="SyncHintRetry">"To help yo\' messizzle homies and family on Telegram, allow access ta yo\'contizzles.
+<string name="SyncHintRetry">"To help yo\' messizzle homies and family on Gangstagram, allow access ta yo\'contizzles.
 
 Tap Settings > Permissions, and turn contizzles on"</string>
 <string name="SyncHintTitle">Find contizzles</string>
@@ -1248,8 +1251,8 @@ Tap Settings > Permissions, and turn contizzles on"</string>
 <string name="ThemeWhiteBlack">White-black</string>
 <string name="Themes">Thizzeme</string>
 <string name="ThemesAndTweaks">Thizzemes and Modizzles</string>
-<string name="ThisLinkOpens">This link opens a chizzat with yo\' on Telegram:</string>
-<string name="ThisLinkWillOpen">This link will open a chizzat with yo\' on Telegram:</string>
+<string name="ThisLinkOpens">This link opens a chizzat with yo\' on Gangstagram:</string>
+<string name="ThisLinkWillOpen">This link will open a chizzat with yo\' on Gangstagram:</string>
 <string name="ThisMonth">This month</string>
 <string name="ThisWeek">This week</string>
 <string name="Thumbnails">Thumbnails</string>
@@ -1561,7 +1564,7 @@ Note: if yo\' forget tha passcizzle, you´ll need ta delete and reinstall tha ap
 <string name="xCalls">%1$s cizzal%2$s</string>
 <string name="xChats">%1$s chizzat%2$s</string>
 <string name="xContacts">%1$s contizzle%2$s</string>
-<string name="xContactsJoined">%1$s contizzle%2$s on Telegram</string>
+<string name="xContactsJoined">%1$s contizzle%2$s on Gangstagram</string>
 <string name="xDays">%1$s day%2$s</string>
 <string name="xFiles">%1$s fizzle%2$s</string>
 <string name="xFollowers">%1$s follower%2$s</string>
