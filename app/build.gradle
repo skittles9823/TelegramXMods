@@ -96,9 +96,9 @@ android {
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.github.javiersantos:PiracyChecker:1.2'
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.github.javiersantos:PiracyChecker:1.2'
+    compile("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
         transitive = true
     }
 }
