@@ -54,7 +54,6 @@ android {
         minSdkVersion 24
         targetSdkVersion 27
         // Both versions must be changed to increment on Play Store/user's devices
-<<<<<<< HEAD
         if (System.getenv("TRAVIS") == "true") {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
             versionName = System.getenv("TRAVIS_BUILD_NUMBER")
@@ -62,10 +61,6 @@ android {
             versionCode 1
             versionName "dev"
         }
-=======
-        versionCode 2
-        versionName "2.0"
->>>>>>> 83fcbc6... Release 13.0.0: Remove NDK dependency and consolidate constants
 
         // Themers: Do not touch this, they will only formulate integrity structure of the core
         //          template
@@ -101,15 +96,9 @@ android {
 }
 
 dependencies {
-<<<<<<< HEAD
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.github.javiersantos:PiracyChecker:1.2'
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
-=======
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.github.javiersantos:PiracyChecker:1.2.2'
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version") {
->>>>>>> 83fcbc6... Release 13.0.0: Remove NDK dependency and consolidate constants
         transitive = true
     }
 }
