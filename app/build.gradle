@@ -1,14 +1,14 @@
 import groovy.io.FileType
- 
+
 import javax.crypto.Cipher
 import javax.crypto.SecretKey
 import javax.crypto.spec.IvParameterSpec
 import javax.crypto.spec.SecretKeySpec
- 
+
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: 'ThemerConstants.gradle'
- 
+
 ext {
     // Encryption values, do not touch as we generate a random key every time you compile!
     byte[] key = new byte[16]
@@ -18,11 +18,14 @@ ext {
     new Random().nextBytes(iv)
     IV_KEY = iv
 }
- 
+
 android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
- 
+    lintOptions {
+        checkReleaseBuilds = false
+
+    }
     signingConfigs {
         travis {
             storeFile file("Skittles.jks")
@@ -42,21 +45,26 @@ android {
         minSdkVersion 24
         targetSdkVersion 27
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 2
-        versionName "2.0"
- 
+        if (System.getenv("TRAVIS") == "true") {
+            versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
+            versionName = System.getenv("TRAVIS_BUILD_NUMBER")
+        } else {
+            versionCode 1
+            versionName "dev"
+        }
+
         // Themers: Do not touch this, they will only formulate integrity structure of the core
         //          template
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
-        buildConfigField "String", "BASE_64_LICENSE_KEY", "" + BASE_64_LICENSE_KEY
-        buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "" + APK_SIGNATURE_PRODUCTION
+        buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + BASE_64_LICENSE_KEY + "\""
+        buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + APK_SIGNATURE_PRODUCTION + "\""
         buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
         buildConfigField "boolean", "ENFORCE_INTERNET_CHECK", "" + ENFORCE_INTERNET_CHECK
         buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "" + ENFORCE_GOOGLE_PLAY_INSTALL
         buildConfigField "boolean", "ENFORCE_AMAZON_APP_STORE_INSTALL", "" + ENFORCE_AMAZON_APP_STORE_INSTALL
         buildConfigField "boolean", "ALLOW_THIRD_PARTY_SUBSTRATUM_BUILDS", "" + ALLOW_THIRD_PARTY_SUBSTRATUM_BUILDS
         resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
- 
+
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
         buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
@@ -70,28 +78,29 @@ android {
             // When you compile an APK as release, your resources and IV keys will be safeguarded
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                signingConfig signingConfigs.travis
         }
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
 }
- 
+
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.github.javiersantos:PiracyChecker:1.2.2'
+    implementation 'com.github.javiersantos:PiracyChecker:1.2.3'
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version") {
         transitive = true
     }
 }
- 
+
 // Themers, do not touch this! This is our function to help us encrypt your assets!
 task encryptAssets {
     if (!shouldEncrypt()) {
         println("Skipping assets encryption...")
         return
     }
- 
+
     def tempAssets = new File(getProjectDir(), "/src/main/assets-temp")
     if (!tempAssets.exists()) {
         println("Encrypting duplicated assets, don't worry, your original assets are safe...")
@@ -99,7 +108,7 @@ task encryptAssets {
         def dir = new File(getProjectDir(), "/src/main/assets")
         dir.eachFileRecurse(FileType.FILES) { file ->
             list << file
- 
+
             FileInputStream fis = new FileInputStream(file)
             File fo = new File(file.getAbsolutePath().replace("assets", "assets-temp"))
             fo.getParentFile().mkdirs()
@@ -112,17 +121,17 @@ task encryptAssets {
             fis.close()
             fos.close()
         }
- 
+
         list.each {
             if (it.getAbsolutePath().contains("overlays")) {
                 Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding")
                 SecretKey secret = new SecretKeySpec(KEY, "AES")
                 IvParameterSpec iv = new IvParameterSpec(IV_KEY)
- 
+
                 cipher.init(Cipher.ENCRYPT_MODE, secret, iv)
                 FileInputStream fis = new FileInputStream(it)
                 FileOutputStream fos = new FileOutputStream(it.getAbsolutePath() + ".enc")
- 
+
                 byte[] input = new byte[64]
                 int bytesRead
                 while ((bytesRead = fis.read(input)) != -1) {
@@ -138,7 +147,7 @@ task encryptAssets {
                 fis.close()
                 fos.flush()
                 fos.close()
- 
+
                 it.delete()
             }
         }
@@ -146,18 +155,18 @@ task encryptAssets {
         throw new RuntimeException("Old temporary assets found! Try and do a clean project.")
     }
 }
- 
+
 project.afterEvaluate {
     preBuild.dependsOn encryptAssets
 }
- 
+
 gradle.buildFinished {
     def tempAssets = new File(getProjectDir(), "/src/main/assets-temp")
     if (tempAssets.exists()) {
         println("Cleaning duplicated encrypted assets, not your decrypted assets...")
         def encryptedAssets = new File(getProjectDir(), "src/main/assets")
         encryptedAssets.deleteDir()
- 
+
         tempAssets.eachFileRecurse(FileType.FILES) { file ->
             FileInputStream fis = new FileInputStream(file)
             File fo = new File(file.getAbsolutePath().replace("assets-temp", "assets"))
@@ -174,12 +183,12 @@ gradle.buildFinished {
         tempAssets.deleteDir()
     }
 }
- 
+
 boolean shouldEncrypt() {
     ArrayList<String> tasks = project.gradle.startParameter.taskNames
     return SHOULD_ENCRYPT_ASSETS && Arrays.toString(tasks).toLowerCase().contains("release")
 }
- 
+
 repositories {
     mavenCentral()
 }

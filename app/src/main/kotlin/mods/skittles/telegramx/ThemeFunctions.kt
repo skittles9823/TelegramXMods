@@ -9,7 +9,6 @@ import android.content.pm.Signature
 import android.net.Uri
 import android.os.RemoteException
 import android.widget.Toast
-
 import mods.skittles.telegramx.AdvancedConstants.BLACKLISTED_APPLICATIONS
 import mods.skittles.telegramx.AdvancedConstants.MINIMUM_SUBSTRATUM_VERSION
 import mods.skittles.telegramx.AdvancedConstants.OTHER_THEME_SYSTEMS
