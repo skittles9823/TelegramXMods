@@ -7,7 +7,6 @@ import javax.crypto.spec.SecretKeySpec
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply from: 'ThemerConstants.gradle'
 
 ext {
     // Whether the theme assets should be encrypted or not,
@@ -54,7 +53,6 @@ android {
         minSdkVersion 24
         targetSdkVersion 27
         // Both versions must be changed to increment on Play Store/user's devices
-<<<<<<< HEAD
         if (System.getenv("TRAVIS") == "true") {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
             versionName = System.getenv("TRAVIS_BUILD_NUMBER")
@@ -62,26 +60,18 @@ android {
             versionCode 1
             versionName "dev"
         }
-=======
-        versionCode 2
-        versionName "2.0"
->>>>>>> 83fcbc6... Release 13.0.0: Remove NDK dependency and consolidate constants
 
         // Themers: Do not touch this, they will only formulate integrity structure of the core
         //          template
-        buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
-        buildConfigField "String", "BASE_64_LICENSE_KEY", "" + BASE_64_LICENSE_KEY
-        buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "" + APK_SIGNATURE_PRODUCTION
-        buildConfigField "boolean", "ENABLE_APP_BLACKLIST_CHECK", "" + ENABLE_APP_BLACKLIST_CHECK
-        buildConfigField "boolean", "ENFORCE_INTERNET_CHECK", "" + ENFORCE_INTERNET_CHECK
-        buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "" + ENFORCE_GOOGLE_PLAY_INSTALL
-        buildConfigField "boolean", "ENFORCE_AMAZON_APP_STORE_INSTALL", "" + ENFORCE_AMAZON_APP_STORE_INSTALL
-        buildConfigField "boolean", "ALLOW_THIRD_PARTY_SUBSTRATUM_BUILDS", "" + ALLOW_THIRD_PARTY_SUBSTRATUM_BUILDS
+        buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" +
+                SUPPORTS_THIRD_PARTY_SYSTEMS
+        resValue "bool", "SUPPORTS_THIRD_PARTY_THEME_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
         resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
 
-        buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
-        buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
-        buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
+        ndk {
+            moduleName "LoadingProcess"
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86"
+        }
     }
     buildTypes {
         debug {
@@ -98,18 +88,17 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Android.mk'
+        }
+    }
 }
 
 dependencies {
-<<<<<<< HEAD
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.github.javiersantos:PiracyChecker:1.2'
     compile("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
-=======
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.github.javiersantos:PiracyChecker:1.2.2'
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version") {
->>>>>>> 83fcbc6... Release 13.0.0: Remove NDK dependency and consolidate constants
         transitive = true
     }
 }
@@ -174,6 +163,26 @@ task encryptAssets {
     } else {
         throw new RuntimeException("Old temporary assets found! Try and do a clean project.")
     }
+}
+
+task writeKeys {
+    def KEY_READY = String.valueOf("\"" + KEY + "\"")
+            .replace("\"", "")
+            .replace("[", "{")
+            .replace("]", "}")
+    def IV_KEY_READY = String.valueOf("\"" + IV_KEY + "\"")
+            .replace("\"", "")
+            .replace("[", "{")
+            .replace("]", "}")
+
+    def headerFile = new File(getProjectDir(), "src/main/jni/LoadingProcess.h")
+    headerFile.createNewFile()
+    headerFile.text = """
+#include <jni.h>
+
+jbyte DECRYPTION_KEY[] = ${KEY_READY};
+jbyte IV_KEY[] = ${IV_KEY_READY};
+"""
 }
 
 project.afterEvaluate {

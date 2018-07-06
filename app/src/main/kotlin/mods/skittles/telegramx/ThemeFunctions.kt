@@ -9,12 +9,13 @@ import android.content.pm.Signature
 import android.net.Uri
 import android.os.RemoteException
 import android.widget.Toast
+import mods.skittles.telegramx.Constants.BLACKLISTED_APPLICATIONS
+import mods.skittles.telegramx.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import mods.skittles.telegramx.Constants.MINIMUM_SUBSTRATUM_VERSION
+import mods.skittles.telegramx.Constants.OTHER_THEME_SYSTEMS
 
-import mods.skittles.telegramx.AdvancedConstants.BLACKLISTED_APPLICATIONS
-import mods.skittles.telegramx.AdvancedConstants.MINIMUM_SUBSTRATUM_VERSION
-import mods.skittles.telegramx.AdvancedConstants.OTHER_THEME_SYSTEMS
 
-@Suppress("ConstantConditionIf")
+@Suppress("ConstantConditionIf") // This needs to be defined by the themer, so suppress!
 object ThemeFunctions {
 
     val SUBSTRATUM_PACKAGE_NAME = "projekt.substratum"
@@ -39,7 +40,7 @@ object ThemeFunctions {
             if (pi.signatures != null
                     && pi.signatures.size == 1
                     && ((SIGNATURES[0] == pi.signatures[0]) ||
-                            (SIGNATURES[1] == pi.signatures[0]))) {
+                    (SIGNATURES[1] == pi.signatures[0]))) {
                 return true
             }
             false
@@ -89,7 +90,7 @@ object ThemeFunctions {
     }
 
     fun getSelfVerifiedIntentResponse(context: Context): Int? {
-        return if (BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
+        return if (ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS) {
             getSelfSignature(context)
         } else {
             getSubstratumSignature(context)
@@ -117,7 +118,7 @@ object ThemeFunctions {
 
     fun getSelfVerifiedThemeEngines(context: Context): Boolean? {
         val isPermitted: Boolean? = OTHER_THEME_SYSTEMS.any { isPackageInstalled(context, it) }
-        if (BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
+        if (ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS) {
             return isPermitted
         } else if (isPackageInstalled(context, SUBSTRATUM_PACKAGE_NAME)) {
             return (!isPermitted!!)
@@ -127,7 +128,7 @@ object ThemeFunctions {
 
     fun isCallingPackageAllowed(packageId: String): Boolean {
         if (packageId == SUBSTRATUM_PACKAGE_NAME) return true
-        if (BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
+        if (ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS) {
             OTHER_THEME_SYSTEMS.filter { packageId == it }.forEach { return true }
         }
         return false

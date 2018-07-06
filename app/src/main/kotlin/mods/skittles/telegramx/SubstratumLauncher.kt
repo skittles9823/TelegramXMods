@@ -1,5 +1,3 @@
-@file:Suppress("ConstantConditionIf")
-
 package mods.skittles.telegramx
 
 import android.app.Activity
@@ -16,13 +14,13 @@ import com.github.javiersantos.piracychecker.enums.InstallerID
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerCallback
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerError
 import com.github.javiersantos.piracychecker.enums.PirateApp
-
-import mods.skittles.telegramx.AdvancedConstants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
-import mods.skittles.telegramx.AdvancedConstants.MINIMUM_SUBSTRATUM_VERSION
-import mods.skittles.telegramx.AdvancedConstants.OTHER_THEME_SYSTEMS
-import mods.skittles.telegramx.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
-import mods.skittles.telegramx.AdvancedConstants.SHOW_LAUNCH_DIALOG
-import mods.skittles.telegramx.AdvancedConstants.SUBSTRATUM_FILTER_CHECK
+import mods.skittles.telegramx.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import mods.skittles.telegramx.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
+import mods.skittles.telegramx.Constants.MINIMUM_SUBSTRATUM_VERSION
+import mods.skittles.telegramx.Constants.OTHER_THEME_SYSTEMS
+import mods.skittles.telegramx.Constants.SHOW_DIALOG_REPEATEDLY
+import mods.skittles.telegramx.Constants.SHOW_LAUNCH_DIALOG
+import mods.skittles.telegramx.Constants.SUBSTRATUM_FILTER_CHECK
 import mods.skittles.telegramx.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
 import mods.skittles.telegramx.ThemeFunctions.checkSubstratumIntegrity
 import mods.skittles.telegramx.ThemeFunctions.getSelfSignature
@@ -35,6 +33,7 @@ import mods.skittles.telegramx.ThemeFunctions.hasOtherThemeSystem
 import mods.skittles.telegramx.ThemeFunctions.isCallingPackageAllowed
 import mods.skittles.telegramx.ThemeFunctions.isPackageInstalled
 
+@Suppress("ConstantConditionIf") // This needs to be defined by the themer, so suppress!
 class SubstratumLauncher : Activity() {
 
     private var substratumIntentData = "projekt.substratum.THEME"
@@ -43,31 +42,31 @@ class SubstratumLauncher : Activity() {
     private var tag = "SubstratumThemeReport"
     private var piracyChecker: PiracyChecker? = null
 
-    private fun calibrateSystem(certified: Boolean) {
+    private fun calibrateSystem(certified: Boolean, modeLaunch: String?) {
         if (!BuildConfig.DEBUG) {
-            startAntiPiracyCheck(certified)
+            startAntiPiracyCheck(certified, modeLaunch)
         } else {
-            quitSelf(certified)
+            quitSelf(certified, modeLaunch)
         }
     }
 
-    private fun startAntiPiracyCheck(certified: Boolean) {
+    private fun startAntiPiracyCheck(certified: Boolean, modeLaunch: String?) {
         if (piracyChecker != null) {
             piracyChecker!!.start()
         } else {
-            if (BuildConfig.BASE_64_LICENSE_KEY.isEmpty() && !BuildConfig.DEBUG) {
+            if (getAPKSignatureProduction().isEmpty() && !BuildConfig.DEBUG) {
                 Log.e(tag, PiracyCheckerUtils.getAPKSignature(this))
             }
 
             piracyChecker = PiracyChecker(this)
-            if (BuildConfig.ENFORCE_GOOGLE_PLAY_INSTALL)
+            if (getGooglePlayRequirement())
                 piracyChecker!!.enableInstallerId(InstallerID.GOOGLE_PLAY)
-            if (BuildConfig.ENFORCE_AMAZON_APP_STORE_INSTALL)
+            if (getAmazonAppStoreRequirement())
                 piracyChecker!!.enableInstallerId(InstallerID.AMAZON_APP_STORE)
 
             piracyChecker!!.callback(object : PiracyCheckerCallback() {
                 override fun allow() {
-                    quitSelf(certified)
+                    quitSelf(certified, modeLaunch)
                 }
 
                 override fun dontAllow(error: PiracyCheckerError, pirateApp: PirateApp?) {
@@ -79,17 +78,17 @@ class SubstratumLauncher : Activity() {
                 }
             })
 
-            if (BuildConfig.BASE_64_LICENSE_KEY.isNotEmpty()) {
-                piracyChecker!!.enableGooglePlayLicensing(BuildConfig.BASE_64_LICENSE_KEY)
+            if (getBase64Key().isNotEmpty()) {
+                piracyChecker!!.enableGooglePlayLicensing(getBase64Key())
             }
-            if (BuildConfig.APK_SIGNATURE_PRODUCTION.isNotEmpty()) {
-                piracyChecker!!.enableSigningCertificate(BuildConfig.APK_SIGNATURE_PRODUCTION)
+            if (getAPKSignatureProduction().isNotEmpty()) {
+                piracyChecker!!.enableSigningCertificate(getAPKSignatureProduction())
             }
             piracyChecker!!.start()
         }
     }
 
-    private fun quitSelf(certified: Boolean): Boolean {
+    private fun quitSelf(certified: Boolean, modeLaunch: String?): Boolean {
         if (!hasOtherThemeSystem(this)) {
             if (!isPackageInstalled(applicationContext, SUBSTRATUM_PACKAGE_NAME)) {
                 getSubstratumFromPlayStore(this)
@@ -104,7 +103,7 @@ class SubstratumLauncher : Activity() {
                 Toast.makeText(this, parse, Toast.LENGTH_SHORT).show()
                 return false
             }
-        } else if (!BuildConfig.SUPPORTS_THIRD_PARTY_SYSTEMS) {
+        } else if (!ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS) {
             Toast.makeText(this, R.string.unauthorized_theme_client, Toast.LENGTH_LONG).show()
             finish()
             return false
@@ -121,11 +120,12 @@ class SubstratumLauncher : Activity() {
         returnIntent.putExtra("theme_name", themeName)
         returnIntent.putExtra("theme_author", themeAuthor)
         returnIntent.putExtra("theme_pid", themePid)
+        returnIntent.putExtra("theme_mode", modeLaunch)
 
-        val themeLaunchType = getSelfVerifiedThemeEngines(applicationContext)
         val themeHash = getSelfSignature(applicationContext)
+        val themeLaunchType = getSelfVerifiedThemeEngines(applicationContext)
         var themePiracyCheck = false
-        if (BuildConfig.ENABLE_APP_BLACKLIST_CHECK)
+        if (getBlacklistedApplications())
             themePiracyCheck = getSelfVerifiedPirateTools(applicationContext)
         if (themePiracyCheck or (SUBSTRATUM_FILTER_CHECK && !certified)) {
             Toast.makeText(this, R.string.unauthorized, Toast.LENGTH_LONG).show()
@@ -136,8 +136,8 @@ class SubstratumLauncher : Activity() {
         returnIntent.putExtra("theme_launch_type", themeLaunchType)
         returnIntent.putExtra("theme_debug", BuildConfig.DEBUG)
         returnIntent.putExtra("theme_piracy_check", themePiracyCheck)
-        returnIntent.putExtra("encryption_key", BuildConfig.DECRYPTION_KEY)
-        returnIntent.putExtra("iv_encrypt_key", BuildConfig.IV_KEY)
+        returnIntent.putExtra("encryption_key", getDecryptionKey())
+        returnIntent.putExtra("iv_encrypt_key", getIVKey())
 
         val callingPackage = intent.getStringExtra("calling_package_name")
         if (callingPackage == null) {
@@ -172,11 +172,12 @@ class SubstratumLauncher : Activity() {
         val action = intent.action
         var verified = false
         val certified = intent.getBooleanExtra("certified", false)
+        val modeLaunch: String? = intent.getStringExtra("theme_mode")
 
         val sharedPref = getPreferences(Context.MODE_PRIVATE)
         if ((action == substratumIntentData) or (action == getKeysIntent)) {
             verified = when {
-                BuildConfig.ALLOW_THIRD_PARTY_SUBSTRATUM_BUILDS -> true
+                allowThirdPartySubstratumBuilds() -> true
                 else -> checkSubstratumIntegrity(this)
             }
         } else {
@@ -195,40 +196,40 @@ class SubstratumLauncher : Activity() {
 
         if (SHOW_LAUNCH_DIALOG) run {
             if (SHOW_DIALOG_REPEATEDLY) {
-                showDialog(certified)
+                showDialog(certified, modeLaunch)
                 sharedPref.edit().remove("dialog_showed").apply()
             } else if (!sharedPref.getBoolean("dialog_showed", false)) {
-                showDialog(certified)
+                showDialog(certified, modeLaunch)
                 sharedPref.edit().putBoolean("dialog_showed", true).apply()
             } else {
-                if (BuildConfig.ENFORCE_INTERNET_CHECK) {
+                if (getInternetCheck()) {
                     if (sharedPref.getInt("last_version", 0) == BuildConfig.VERSION_CODE) {
-                        calibrateSystem(certified)
+                        calibrateSystem(certified, modeLaunch)
                     } else {
-                        checkConnection(certified)
+                        checkConnection(certified, modeLaunch)
                     }
                 } else {
-                    calibrateSystem(certified)
+                    calibrateSystem(certified, modeLaunch)
                 }
             }
-        } else if (BuildConfig.ENFORCE_INTERNET_CHECK) {
+        } else if (getInternetCheck()) {
             if (sharedPref.getInt("last_version", 0) == BuildConfig.VERSION_CODE) {
-                calibrateSystem(certified)
+                calibrateSystem(certified, modeLaunch)
             } else {
-                checkConnection(certified)
+                checkConnection(certified, modeLaunch)
             }
         } else {
-            calibrateSystem(certified)
+            calibrateSystem(certified, modeLaunch)
         }
     }
 
-    private fun checkConnection(certified: Boolean) {
+    private fun checkConnection(certified: Boolean, modeLaunch: String?) {
         val editor = getPreferences(Context.MODE_PRIVATE).edit()
         editor.putInt("last_version", BuildConfig.VERSION_CODE).apply()
-        calibrateSystem(certified)
+        calibrateSystem(certified, modeLaunch)
     }
 
-    private fun showDialog(certified: Boolean) {
+    private fun showDialog(certified: Boolean, modeLaunch: String?) {
         val dialog = AlertDialog.Builder(this, R.style.DialogStyle)
                 .setCancelable(false)
                 .setIcon(R.mipmap.ic_launcher)
@@ -236,21 +237,20 @@ class SubstratumLauncher : Activity() {
                 .setMessage(R.string.launch_dialog_content)
                 .setPositiveButton(R.string.launch_dialog_positive) { _, _ ->
                     val sharedPref = getPreferences(Context.MODE_PRIVATE)
-                    if (BuildConfig.ENFORCE_INTERNET_CHECK) {
+                    if (getInternetCheck()) {
                         if (sharedPref.getInt("last_version", 0) == BuildConfig.VERSION_CODE) {
-                            calibrateSystem(certified)
+                            calibrateSystem(certified, modeLaunch)
                         } else {
-                            checkConnection(certified)
+                            checkConnection(certified, modeLaunch)
                         }
                     } else {
-                        calibrateSystem(certified)
+                        calibrateSystem(certified, modeLaunch)
                     }
                 }
         if (getString(R.string.launch_dialog_negative).isNotEmpty()) {
             if (getString(R.string.launch_dialog_negative_url).isNotEmpty()) {
                 dialog.setNegativeButton(R.string.launch_dialog_negative) { _, _ ->
-                    startActivity(Intent(Intent.ACTION_VIEW,
-                            Uri.parse(getString(R.string.launch_dialog_negative_url))))
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.launch_dialog_negative_url))))
                     finish()
                 }
             } else {
@@ -259,4 +259,19 @@ class SubstratumLauncher : Activity() {
         }
         dialog.show()
     }
+
+    // Load up the JNI library
+    init {
+        System.loadLibrary("LoadingProcess")
+    }
+
+    private external fun getInternetCheck(): Boolean
+    private external fun getGooglePlayRequirement(): Boolean
+    private external fun getAmazonAppStoreRequirement(): Boolean
+    private external fun getBase64Key(): String
+    private external fun getAPKSignatureProduction(): String
+    private external fun getBlacklistedApplications(): Boolean
+    private external fun allowThirdPartySubstratumBuilds(): Boolean
+    private external fun getDecryptionKey(): ByteArray
+    private external fun getIVKey(): ByteArray
 }
