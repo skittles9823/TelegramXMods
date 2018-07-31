@@ -4,7 +4,7 @@
     <string name="ThemeAuthor">Skittles9823 x Friends</string>
     <!-- Your email for bug reports (DEFAULT: empty) -->
     <!--suppress CheckTagEmptyBody -->
-    <string name="ThemeAuthorEmail"></string>
+    <string name="ThemeAuthorEmail">skittles9832@gmail.com</string>
     <!-- Theme wallpaper source (must be raw) -->
     <string name="ThemeWallpaperSource"></string>
     <!-- Do your theme support substratum legacy? -->
@@ -20,5 +20,13 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
+        <item> ↓ CHANGELOG ↓ </item>
+        <item>Update theme dialogue</item>
+        <item>Fix 'tyles'</item>
+        <item></item>
+        <item></item>
+
+        <item></item>
+        <item>Bugs | skittles9832@gmail.com</item>
     </string-array>
 </resources>

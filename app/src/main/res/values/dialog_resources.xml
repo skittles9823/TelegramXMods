@@ -6,9 +6,12 @@
       ~ Custom dialog message on theme launch.
       ~ Add word in launch_dialog_negative to add a cancel button on the dialog
       -->
-    <string name="launch_dialog_title">TGXMods</string>
-    <string name="launch_dialog_content">Enjoy the theme!</string>
-    <string name="launch_dialog_positive">Ok</string>
+    <string name="launch_dialog_title">TGXMods | ATTENTION</string>
+    <string name="launch_dialog_content">
+            The Android System overlay does not need to be applied.\n
+            It is a dummy overlay to get the maps themes to work.
+    </string>
+    <string name="launch_dialog_positive">Proceed</string>
     <string name="launch_dialog_negative">Support Group</string>
     <string name="launch_dialog_negative_url">https://t.me/TGXThemed</string>
 </resources>
