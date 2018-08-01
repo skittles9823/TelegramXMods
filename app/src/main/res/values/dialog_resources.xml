@@ -8,8 +8,9 @@
       -->
     <string name="launch_dialog_title">TGXMods | ATTENTION</string>
     <string name="launch_dialog_content">
-            The Android System overlay does not need to be applied.\n
-            It is a dummy overlay to get the maps themes to work.
+            Enjoy the theme!\n\n
+
+            Please, join the support group if you have any issues
     </string>
     <string name="launch_dialog_positive">Proceed</string>
     <string name="launch_dialog_negative">Support Group</string>
