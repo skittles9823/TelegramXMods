@@ -68,16 +68,16 @@
     <string name="AlwaysShareWith"><![CDATA[Awways Shawe With owo]]></string>
     <string name="AndroidEmoji"><![CDATA[System Emoji (*^*)]]></string>
     <string name="AndroidVersionWarning"><![CDATA[Sowwy, this featuwe is avaiwabwe yet onwy on Andwoid %1$s (%2$s) ow highew ~:o]]></string>
-    <string name="AnimalsAndNature"><![CDATA[Animaws &amp; nytuwe >w<]]></string>
+    <string name="AnimalsAndNature"><![CDATA[Animaws &amp; nytuwe >w<]]></string>
     <string name="AnswerCall"><![CDATA[Answew caww (・`ω´・)]]></string>
     <string name="AnyMedia"><![CDATA[Any media (^o) (/o^)/]]></string>
     <string name="AppBadge"><![CDATA[Unwead Count Badge (・`ω´・)]]></string>
     <string name="AppBadgeAll"><![CDATA[Fwom aww chats ]]></string>
     <string name="AppBadgeDisabled"><![CDATA[Disabwed ;____;]]></string>
-    <string name="AppBadgeHint"><![CDATA[Dwaw unwead countew neaw appwication icon. nyte that it may not be dispwayed on some devices. ^w^]]></string>
+    <string name="AppBadgeHint"><![CDATA[Dwaw unwead countew neaw appwication icon. nyte that it may not be dispwayed on some devices. ^w^]]></string>
     <string name="AppBadgeType"><![CDATA[Badge Type ;____;]]></string>
-    <string name="AppBadgeTypeChats"><![CDATA[nymbew of chats ;____;]]></string>
-    <string name="AppBadgeTypeMessages"><![CDATA[nymbew of messages >w<]]></string>
+    <string name="AppBadgeTypeChats"><![CDATA[nymbew of chats ;____;]]></string>
+    <string name="AppBadgeTypeMessages"><![CDATA[nymbew of messages >w<]]></string>
     <string name="AppBadgeUnmuted"><![CDATA[Fwom non-muted chats UwU]]></string>
     <string name="AppName"><![CDATA[Tewegwam X owo]]></string>
     <string name="AppUpdateOk"><![CDATA[Update ;;w;;]]></string>
@@ -156,13 +156,13 @@ Please take a look at the &lt;a href=https://telegram.org/faq#general-questions>
     <string name="AutoInstantView"><![CDATA[Open in Instant View (・`ω´・)]]></string>
     <string name="AutoInstantViewAll"><![CDATA[Aww winks *(^O^)*]]></string>
     <string name="AutoInstantViewDesc"><![CDATA[Whenevew you pwess the wink, Tewegwam wiww twy to genewate Instant View fow it. owo]]></string>
-    <string name="AutoInstantViewNone"><![CDATA[ny winks ;____;]]></string>
+    <string name="AutoInstantViewNone"><![CDATA[ny winks ;____;]]></string>
     <string name="AutoInstantViewTelegram"><![CDATA[tewegwam.owg + tewegwa.ph owo]]></string>
     <string name="AutoLock"><![CDATA[Auto-Wock ( ^ _ ^)∠☆]]></string>
     <string name="AutoLockDisabled"><![CDATA[Disabwed ~:o]]></string>
     <string name="AutoNightAutomatic"><![CDATA[Automatic ~:o]]></string>
     <string name="AutoNightDisabled"><![CDATA[Disabwed (^o) (/o^)/]]></string>
-    <string name="AutoNightMode"><![CDATA[Auto nyght Mode (*^*)]]></string>
+    <string name="AutoNightMode"><![CDATA[Auto nyght Mode (*^*)]]></string>
     <string name="AutoNightModeDescription"><![CDATA[Switch to night theme based on ambient wighting ow youw time pwefewence. UwU]]></string>
     <string name="AutoNightModeDescriptionAuto">"Switch to night theme when ambient lighting falls below %1$d%%.
 
@@ -241,7 +241,7 @@ Note: if you forget the passcode, you'll need to delete and reinstall the app. A
     <string name="ChannelMessageNoText"><![CDATA[%1$s posted a message ^w^]]></string>
     <string name="ChannelMessagePhoto"><![CDATA[%1$s posted a photo >w<]]></string>
     <string name="ChannelMessageVideo"><![CDATA[%1$s posted a video ((+_+))]]></string>
-    <string name="ChannelName"><![CDATA[Channew nyme owo]]></string>
+    <string name="ChannelName"><![CDATA[Channew nyme owo]]></string>
     <string name="ChannelNotifyMembersInfoOff"><![CDATA[Membews wiww not be notified when you post ]]></string>
     <string name="ChannelNotifyMembersInfoOn"><![CDATA[Membews wiww be notified when you post *(^O^)*]]></string>
     <string name="ChannelPhotoChangedBy"><![CDATA[%1$s changed the channew photo owo]]></string>
@@ -265,11 +265,11 @@ Note: if you forget the passcode, you'll need to delete and reinstall the app. A
     <string name="ChatCamera"><![CDATA[Camewa >w<]]></string>
     <string name="ChatContentProtected"><![CDATA[Content Wocked owo]]></string>
     <string name="ChatHintsDelete"><![CDATA[Dewete %1$s fwom suggestions? owo]]></string>
-    <string name="ChatHistory"><![CDATA[Chat Histowy fow nyw Membews ((+_+))]]></string>
+    <string name="ChatHistory"><![CDATA[Chat Histowy fow nyw Membews ((+_+))]]></string>
     <string name="ChatHistoryHidden"><![CDATA[Hidden (^o) (/o^)/]]></string>
-    <string name="ChatHistoryHiddenInfo"><![CDATA["nyw membews won't see eawwiew messages." ( ^ _ ^)∠☆]]></string>
+    <string name="ChatHistoryHiddenInfo"><![CDATA["nyw membews won't see eawwiew messages." ( ^ _ ^)∠☆]]></string>
     <string name="ChatHistoryVisible"><![CDATA[Visibwe ;;w;;]]></string>
-    <string name="ChatHistoryVisibleInfo"><![CDATA[nyw membews wiww see messages that wewe sent befowe they joined. (*^*)]]></string>
+    <string name="ChatHistoryVisibleInfo"><![CDATA[nyw membews wiww see messages that wewe sent befowe they joined. (*^*)]]></string>
     <string name="ChatLinkRemove"><![CDATA[Wemove Wink owo]]></string>
     <string name="ChatLinkRemoveAlert"><![CDATA[Wait! Awe you suwe you want to make %1$s pwivate and wewease its pubwic wink? Whiwe fwee, it might be taken by any othew usew. ]]></string>
     <string name="ChatLinkView"><![CDATA[View Chat >w<]]></string>
@@ -365,7 +365,7 @@ Turn them back on in Settings - Privacy and Security."</string>
     <string name="CustomDate"><![CDATA[Custom date ( ^ _ ^)∠☆]]></string>
     <string name="CustomHelp"><![CDATA["Impowtant: you won't be abwe to see Wast Seen times fow peopwe with whom you don't shawe youw Wast Seen time. Appwoximate wast seen wiww be shown instead (wecentwy, within a week, within a month)." (^o) (/o^)/]]></string>
     <string name="CustomNotifications"><![CDATA[Custom notifications (*^*)]]></string>
-    <string name="CustomNotificationsHint"><![CDATA[These settings wiww ovewwide the gwobaw vawues in Settings — nytifications. owo]]></string>
+    <string name="CustomNotificationsHint"><![CDATA[These settings wiww ovewwide the gwobaw vawues in Settings — nytifications. owo]]></string>
     <string name="CustomShareSettingsHelp"><![CDATA[These settings wiww ovewwide the vawues above. (^o) (/o^)/]]></string>
     <string name="CustomVibrations"><![CDATA[Custom Vibwations ;;w;;]]></string>
     <string name="DataSaver"><![CDATA[Data Savew (・`ω´・)]]></string>
@@ -408,14 +408,14 @@ Turn them back on in Settings - Privacy and Security."</string>
     <string name="DeleteContact"><![CDATA[Dewete contact owo]]></string>
     <string name="DeleteContactConfirm"><![CDATA[Awe you suwe you want to dewete %1$s fwom contacts wist? owo]]></string>
     <string name="DeleteEntry"><![CDATA[Dewete Entwy (♥_♥)]]></string>
-    <string name="DeleteFileHint"><![CDATA[nyte: you wiww be abwe to downwoad this fiwe any time watew. (・`ω´・)]]></string>
+    <string name="DeleteFileHint"><![CDATA[nyte: you wiww be abwe to downwoad this fiwe any time watew. (・`ω´・)]]></string>
     <string name="DeleteForEveryone"><![CDATA[Dewete fow evewyone (・`ω´・)]]></string>
     <string name="DeleteForMeAndX"><![CDATA[Dewete fow me and %1$s ((+_+))]]></string>
     <string name="DeleteForUser"><![CDATA[Dewete fow %1$s UwU]]></string>
     <string name="DeleteFromCache"><![CDATA[Cweaw fwom cache (^o) (/o^)/]]></string>
     <string name="DeleteMessage"><![CDATA[Dewete message ]]></string>
     <string name="DeleteMessages"><![CDATA[Dewete messages (*^*)]]></string>
-    <string name="DeleteMultipleFilesHint"><![CDATA[nyte: you wiww be abwe to downwoad these fiwes any time watew. ;____;]]></string>
+    <string name="DeleteMultipleFilesHint"><![CDATA[nyte: you wiww be abwe to downwoad these fiwes any time watew. ;____;]]></string>
     <string name="DeletePack"><![CDATA[Dewete pack *(^O^)*]]></string>
     <string name="DeletePhoto"><![CDATA[Dewete photo ;;w;;]]></string>
     <string name="DeleteSecretChatClosedConfirm"><![CDATA[Awe you suwe you want to dewete a secwet chat with %1$s? This action cannot be undone. (^o) (/o^)/]]></string>
@@ -446,7 +446,7 @@ Delete the group anyway?"</string>
     <string name="DidNotGetTheCode"><![CDATA["Haven't weceived the code?" ( ^ _ ^)∠☆]]></string>
     <string name="DirectionGo"><![CDATA[Go ~:o]]></string>
     <string name="Directions"><![CDATA[Diwections… ((+_+))]]></string>
-    <string name="DisableAutoNightMode"><![CDATA[Disabwe Auto nyght Mode? (・`ω´・)]]></string>
+    <string name="DisableAutoNightMode"><![CDATA[Disabwe Auto nyght Mode? (・`ω´・)]]></string>
     <string name="DisableAutoNightModeDesc">"Changing current theme will disable Auto Night Mode.
 
 You may enable it any time later in Settings > Themes."</string>
@@ -473,7 +473,7 @@ You may enable it any time later in Settings > Themes."</string>
     <string name="EMail"><![CDATA[E-Maiw (♥_♥)]]></string>
     <string name="EarpieceMode"><![CDATA[Pwayback thwough eawpiece ;;w;;]]></string>
     <string name="EarpieceModeAlways"><![CDATA[Awways (>_]]></string>
-    <string name="EarpieceModeNever"><![CDATA[nyvew ;;w;;]]></string>
+    <string name="EarpieceModeNever"><![CDATA[nyvew ;;w;;]]></string>
     <string name="EarpieceModeProximity"><![CDATA[When cwose to an eaw ]]></string>
     <string name="EditAdmin"><![CDATA[Edit Admin ~:o]]></string>
     <string name="EditAdminGroupDeleteMessages"><![CDATA[Dewete Messages *(^O^)*]]></string>
@@ -506,7 +506,7 @@ If they look the same on %1$s"</string>
     <string name="EnterPassword"><![CDATA[Entew Passwowd (>_]]></string>
     <string name="Error"><![CDATA[Ewwow ~:o]]></string>
     <string name="ErrorUserDeleted"><![CDATA[Cannot pewfowm this action, because usew account is deactivated. owo]]></string>
-    <string name="ErrorUsersTooFew"><![CDATA[nyt enough membews: evewyone has westwicted who can invite them. ]]></string>
+    <string name="ErrorUsersTooFew"><![CDATA[nyt enough membews: evewyone has westwicted who can invite them. ]]></string>
     <string name="EventLog"><![CDATA[Wecent Actions ;____;]]></string>
     <string name="EventLogAllAdmins"><![CDATA[Aww admins (^o) (/o^)/]]></string>
     <string name="EventLogAllEvents"><![CDATA[Aww actions ;;w;;]]></string>
@@ -534,16 +534,16 @@ in the last 48 hours."</string>
 
 No recent actions that match your query
 have been found."</string>
-    <string name="EventLogEmptyTextSearch"><![CDATA["ny wecent actions that contain '&wt;b>%1$s&wt;/b>' have been found." (^o) (/o^)/]]></string>
+    <string name="EventLogEmptyTextSearch"><![CDATA["ny wecent actions that contain '&wt;b>%1$s&wt;/b>' have been found." (^o) (/o^)/]]></string>
     <string name="EventLogFilterAll"><![CDATA[Aww actions owo]]></string>
     <string name="EventLogFilterChannelInfo"><![CDATA[Channew info (^o) (/o^)/]]></string>
     <string name="EventLogFilterDeletedMessages"><![CDATA[Deweted messages owo]]></string>
     <string name="EventLogFilterEditedMessages"><![CDATA[Edited messages ( ^ _ ^)∠☆]]></string>
     <string name="EventLogFilterGroupInfo"><![CDATA[Gwoup info ;____;]]></string>
     <string name="EventLogFilterLeavingMembers"><![CDATA[Weaving membews (^o) (/o^)/]]></string>
-    <string name="EventLogFilterNewAdmins"><![CDATA[nyw admins (^o) (/o^)/]]></string>
-    <string name="EventLogFilterNewMembers"><![CDATA[nyw membews UwU]]></string>
-    <string name="EventLogFilterNewRestrictions"><![CDATA[nyw westwictions ]]></string>
+    <string name="EventLogFilterNewAdmins"><![CDATA[nyw admins (^o) (/o^)/]]></string>
+    <string name="EventLogFilterNewMembers"><![CDATA[nyw membews UwU]]></string>
+    <string name="EventLogFilterNewRestrictions"><![CDATA[nyw westwictions ]]></string>
     <string name="EventLogFilterPinnedMessages"><![CDATA[Pinned messages (>_]]></string>
     <string name="EventLogGroupBanned">"banned %1$s
 
@@ -679,7 +679,7 @@ Please copy scary error details below and submit them to support@telegram.org so
     <string name="HoldToPreview"><![CDATA[Chat Pweviews ]]></string>
     <string name="HoldToVideo"><![CDATA[Howd to wecowd video. Tap to switch to audio. (^o) (/o^)/]]></string>
     <string name="Importance"><![CDATA[Impowtance ^w^]]></string>
-    <string name="InAppNotifications"><![CDATA[In-App nytifications ;;w;;]]></string>
+    <string name="InAppNotifications"><![CDATA[In-App nytifications ;;w;;]]></string>
     <string name="InChannels"><![CDATA[In Channews (・`ω´・)]]></string>
     <string name="InChatSound"><![CDATA[In-Chat Sounds (^o) (/o^)/]]></string>
     <string name="InGroups"><![CDATA[In Gwoups (^o) (/o^)/]]></string>
@@ -872,22 +872,22 @@ __italic__
     <string name="MuteForever"><![CDATA[Mute fowevew ;____;]]></string>
     <string name="MuteNotifications"><![CDATA[Mute notifications ;____;]]></string>
     <string name="MyContacts"><![CDATA[My Contacts ( ^ _ ^)∠☆]]></string>
-    <string name="NearbyPlaces"><![CDATA[nyawby Pwaces ((+_+))]]></string>
-    <string name="NetworkUsage"><![CDATA[nytwowk Usage ( ^ _ ^)∠☆]]></string>
-    <string name="NetworkUsageSince"><![CDATA[nytwowk usage since %1$s (*^*)]]></string>
-    <string name="Never"><![CDATA[nyvew ;____;]]></string>
-    <string name="NeverAllow"><![CDATA[nyvew Awwow ^w^]]></string>
-    <string name="NeverShareWith"><![CDATA[nyvew Shawe With (>_]]></string>
-    <string name="New"><![CDATA[nyw (・`ω´・)]]></string>
-    <string name="NewChannel"><![CDATA[nyw Channew (^o) (/o^)/]]></string>
-    <string name="NewChat"><![CDATA[nyw Chat ~:o]]></string>
-    <string name="NewGroup"><![CDATA[nyw Gwoup ( ^ _ ^)∠☆]]></string>
-    <string name="NewNumber"><![CDATA[nyw nymbew ( ^ _ ^)∠☆]]></string>
-    <string name="NewPhone"><![CDATA[nyw phone numbew ;____;]]></string>
+    <string name="NearbyPlaces"><![CDATA[nyawby Pwaces ((+_+))]]></string>
+    <string name="NetworkUsage"><![CDATA[nytwowk Usage ( ^ _ ^)∠☆]]></string>
+    <string name="NetworkUsageSince"><![CDATA[nytwowk usage since %1$s (*^*)]]></string>
+    <string name="Never"><![CDATA[nyvew ;____;]]></string>
+    <string name="NeverAllow"><![CDATA[nyvew Awwow ^w^]]></string>
+    <string name="NeverShareWith"><![CDATA[nyvew Shawe With (>_]]></string>
+    <string name="New"><![CDATA[nyw (・`ω´・)]]></string>
+    <string name="NewChannel"><![CDATA[nyw Channew (^o) (/o^)/]]></string>
+    <string name="NewChat"><![CDATA[nyw Chat ~:o]]></string>
+    <string name="NewGroup"><![CDATA[nyw Gwoup ( ^ _ ^)∠☆]]></string>
+    <string name="NewNumber"><![CDATA[nyw nymbew ( ^ _ ^)∠☆]]></string>
+    <string name="NewPhone"><![CDATA[nyw phone numbew ;____;]]></string>
     <string name="NewPinnedMessage"><![CDATA[Pinned message: %1$s ]]></string>
-    <string name="NewSecretChat"><![CDATA[nyw Secwet Chat (*^*)]]></string>
-    <string name="NewSecretChatWith"><![CDATA[nyw Secwet Chat… (*^*)]]></string>
-    <string name="NightMode"><![CDATA[nyght Mode (・`ω´・)]]></string>
+    <string name="NewSecretChat"><![CDATA[nyw Secwet Chat (*^*)]]></string>
+    <string name="NewSecretChatWith"><![CDATA[nyw Secwet Chat… (*^*)]]></string>
+    <string name="NightMode"><![CDATA[nyght Mode (・`ω´・)]]></string>
     <string name="NoActiveLogins">"**No active logins**
 
 You can log in on websites that support signing in with Telegram."</string>
@@ -898,73 +898,73 @@ You can log in on websites that support signing in with Telegram."</string>
     <string name="NoChats"><![CDATA[You have no chats ;____;]]></string>
     <string name="NoChatsText">"**No chats to show**
 Invite your friends and family to join Telegram"</string>
-    <string name="NoContacts"><![CDATA[ny contacts to dispway UwU]]></string>
-    <string name="NoDocumentsToShow"><![CDATA[ny documents to show >w<]]></string>
+    <string name="NoContacts"><![CDATA[ny contacts to dispway UwU]]></string>
+    <string name="NoDocumentsToShow"><![CDATA[ny documents to show >w<]]></string>
     <string name="NoDocumentsToShowInChannel">"Published documents and files
 will be shown here."</string>
-    <string name="NoFiles"><![CDATA[ny Fiwes ;;w;;]]></string>
-    <string name="NoGIFs"><![CDATA[ny GIFs UwU]]></string>
+    <string name="NoFiles"><![CDATA[ny Fiwes ;;w;;]]></string>
+    <string name="NoGIFs"><![CDATA[ny GIFs UwU]]></string>
     <string name="NoGalleryAccess"><![CDATA[Pewmission ewwow ^w^]]></string>
-    <string name="NoGifsToShow"><![CDATA[ny GIFs to show owo]]></string>
+    <string name="NoGifsToShow"><![CDATA[ny GIFs to show owo]]></string>
     <string name="NoGifsToShowInChannel"><![CDATA[Pubwished GIFs wiww be shown hewe. (ô_ô)]]></string>
     <string name="NoGifsToShowInChat">"Share GIFs in this chat and
 access them on any device you have."</string>
     <string name="NoGoogleMaps"><![CDATA[This featuwe wequiwes Googwe Maps instawwed. ]]></string>
-    <string name="NoGroupsToShow"><![CDATA[ny gwoups to show (♥_♥)]]></string>
-    <string name="NoLinksToShow"><![CDATA[ny winks to show ((+_+))]]></string>
+    <string name="NoGroupsToShow"><![CDATA[ny gwoups to show (♥_♥)]]></string>
+    <string name="NoLinksToShow"><![CDATA[ny winks to show ((+_+))]]></string>
     <string name="NoLinksToShowInChannel">"Published links and articles
 will be shown here."</string>
     <string name="NoLinksToShowInChat">"Share links in this chat and
 access them on any device you have."</string>
     <string name="NoLocationAccess"><![CDATA[This featuwe wequiwes access to youw wocation. ^w^]]></string>
-    <string name="NoMasks"><![CDATA[ny masks instawwed UwU]]></string>
-    <string name="NoMediaToShow"><![CDATA[ny media to show (・`ω´・)]]></string>
+    <string name="NoMasks"><![CDATA[ny masks instawwed UwU]]></string>
+    <string name="NoMediaToShow"><![CDATA[ny media to show (・`ω´・)]]></string>
     <string name="NoMediaToShowInChannel">"Published photos and videos
 will be shown here."</string>
     <string name="NoMediaToShowInChat">"Share photos and videos in this chat and
 access them on any of your devices."</string>
-    <string name="NoMediaYet"><![CDATA[ny photos ow videos yet (^o) (/o^)/]]></string>
-    <string name="NoMembersToShow"><![CDATA[ny membews to show (ô_ô)]]></string>
+    <string name="NoMediaYet"><![CDATA[ny photos ow videos yet (^o) (/o^)/]]></string>
+    <string name="NoMembersToShow"><![CDATA[ny membews to show (ô_ô)]]></string>
     <string name="NoMembersToShowDesc">"Try changing your search query.
 Found members will be shown here."</string>
-    <string name="NoMessages"><![CDATA[ny messages hewe yet… UwU]]></string>
+    <string name="NoMessages"><![CDATA[ny messages hewe yet… UwU]]></string>
     <string name="NoMicrophoneAccess"><![CDATA[This featuwe wequiwes access to micwophone. ( ^ _ ^)∠☆]]></string>
-    <string name="NoMusic"><![CDATA[ny Music ^w^]]></string>
-    <string name="NoMusicFilesFound"><![CDATA[ny music fiwes found (♥_♥)]]></string>
-    <string name="NoMusicToShow"><![CDATA[ny music to show *(^O^)*]]></string>
+    <string name="NoMusic"><![CDATA[ny Music ^w^]]></string>
+    <string name="NoMusicFilesFound"><![CDATA[ny music fiwes found (♥_♥)]]></string>
+    <string name="NoMusicToShow"><![CDATA[ny music to show *(^O^)*]]></string>
     <string name="NoMusicToShowInChannel">"Published music and audio files
 will be shown here."</string>
     <string name="NoMusicToShowInChat">"Share music and audio files in this chat and
 access them on any device you have."</string>
-    <string name="NoOtherSessions"><![CDATA[ny Othew Active Sessions (>_]]></string>
+    <string name="NoOtherSessions"><![CDATA[ny Othew Active Sessions (>_]]></string>
     <string name="NoOtherSessionsInfo"><![CDATA[You can wog in to Tewegwam fwom othew mobiwe, tabwet and desktop devices, using the same phone numbew. Aww youw data wiww be instantwy synchwonized. *(^O^)*]]></string>
-    <string name="NoPhotos"><![CDATA[ny Photos >w<]]></string>
+    <string name="NoPhotos"><![CDATA[ny Photos >w<]]></string>
     <string name="NoPlacesFound"><![CDATA[Pwaces not found *(^O^)*]]></string>
-    <string name="NoRestrictions"><![CDATA[ny westwictions ~:o]]></string>
+    <string name="NoRestrictions"><![CDATA[ny westwictions ~:o]]></string>
     <string name="NoRestrictionsHint"><![CDATA[Specify at weast one westwiction wuwe (♥_♥)]]></string>
     <string name="NoReturnToChat"><![CDATA[You cannot wetuwn to this chat (ô_ô)]]></string>
     <string name="NoRightToCall"><![CDATA["Sowwy, &wt;b>%1$s&wt;/b> doesn't accept cawws." ( ^ _ ^)∠☆]]></string>
-    <string name="NoStickerSets"><![CDATA[ny stickew sets instawwed (>_]]></string>
+    <string name="NoStickerSets"><![CDATA[ny stickew sets instawwed (>_]]></string>
     <string name="NoStorageAccess"><![CDATA[This featuwe wequiwes stowage access. (*^*)]]></string>
-    <string name="NoVideoMessages"><![CDATA[ny Video messages ;;w;;]]></string>
-    <string name="NoVideoToShow"><![CDATA[ny video messages to show ((+_+))]]></string>
+    <string name="NoVideoMessages"><![CDATA[ny Video messages ;;w;;]]></string>
+    <string name="NoVideoToShow"><![CDATA[ny video messages to show ((+_+))]]></string>
     <string name="NoVideoToShowInChannel">"Published video messages
 will be shown here."</string>
     <string name="NoVideoToShowInChat">"Share video messages in this chat and
 access them on any device you have."</string>
-    <string name="NoVideos"><![CDATA[ny Videos (^o) (/o^)/]]></string>
-    <string name="NoVoiceMessages"><![CDATA[ny Voice messages owo]]></string>
-    <string name="NoVoiceToShow"><![CDATA[ny voice messages to show ;;w;;]]></string>
+    <string name="NoVideos"><![CDATA[ny Videos (^o) (/o^)/]]></string>
+    <string name="NoVoiceMessages"><![CDATA[ny Voice messages owo]]></string>
+    <string name="NoVoiceToShow"><![CDATA[ny voice messages to show ;;w;;]]></string>
     <string name="NoVoiceToShowInChannel">"Published voice messages
 will be shown here."</string>
     <string name="NoVoiceToShowInChat">"Share voice messages in this chat and
 access them on any device you have."</string>
-    <string name="Nobody"><![CDATA[nybody UwU]]></string>
+    <string name="Nobody"><![CDATA[nybody UwU]]></string>
     <string name="NobodyLikesSpam2"><![CDATA[Sowwy, you can onwy add mutuaw contacts to gwoups at the moment. (♥_♥)]]></string>
-    <string name="None"><![CDATA[nyne (・`ω´・)]]></string>
-    <string name="NotNow"><![CDATA[nyt now ;____;]]></string>
-    <string name="Nothing"><![CDATA[nything (・`ω´・)]]></string>
-    <string name="NothingFound"><![CDATA[nything found ((+_+))]]></string>
+    <string name="None"><![CDATA[nyne (・`ω´・)]]></string>
+    <string name="NotNow"><![CDATA[nyt now ;____;]]></string>
+    <string name="Nothing"><![CDATA[nything (・`ω´・)]]></string>
+    <string name="NothingFound"><![CDATA[nything found ((+_+))]]></string>
     <string name="NotificationActionPinnedNoTextChannel"><![CDATA[%1$s pinned a message ((+_+))]]></string>
     <string name="NotificationChannelCall"><![CDATA[Incoming Caww UwU]]></string>
     <string name="NotificationChannelChannelChat"><![CDATA[Custom notification settings fow the Channew «%1$s». ((+_+))]]></string>
@@ -985,22 +985,22 @@ access them on any device you have."</string>
     <string name="NotificationMessagePhoto"><![CDATA[%1$s sent you a photo owo]]></string>
     <string name="NotificationMessageVideo"><![CDATA[%1$s sent you a video (>_]]></string>
     <string name="NotificationMessageVoice"><![CDATA[%1$s sent you a voice message owo]]></string>
-    <string name="Notifications"><![CDATA[nytifications UwU]]></string>
+    <string name="Notifications"><![CDATA[nytifications UwU]]></string>
     <string name="NotificationsCustomize"><![CDATA[Customize ;;w;;]]></string>
     <string name="NotificationsDefault"><![CDATA[Use gwobaw settings (%1$s) ]]></string>
     <string name="NotificationsDefaultDisabled"><![CDATA[Disabwed (♥_♥)]]></string>
     <string name="NotificationsDefaultEnabled"><![CDATA[Enabwed owo]]></string>
-    <string name="NotificationsDefaultInfo"><![CDATA[nytifications fwom this chat awe expwicitwy enabwed. owo]]></string>
+    <string name="NotificationsDefaultInfo"><![CDATA[nytifications fwom this chat awe expwicitwy enabwed. owo]]></string>
     <string name="NotificationsDefaultUnmutesIn"><![CDATA[Unmutes in %1$s (・`ω´・)]]></string>
     <string name="NotificationsDefaultValue"><![CDATA[%1$s (defauwt) UwU]]></string>
     <string name="NotificationsDisabled"><![CDATA[Disabwed (>_]]></string>
-    <string name="NotificationsEnableOverride"><![CDATA[Enabwing notifications fow this chat wiww ovewwide the gwobaw vawue in Settings — nytifications (%1$s). (・`ω´・)]]></string>
+    <string name="NotificationsEnableOverride"><![CDATA[Enabwing notifications fow this chat wiww ovewwide the gwobaw vawue in Settings — nytifications (%1$s). (・`ω´・)]]></string>
     <string name="NotificationsEnabled"><![CDATA[Enabwed ~:o]]></string>
     <string name="NotificationsGooglePlayServices"><![CDATA[Googwe Pway Sewvices is needed fow guawanteed notification dewivewy. owo]]></string>
     <string name="NotificationsLed"><![CDATA[WED UwU]]></string>
     <string name="NotificationsPriority"><![CDATA[Pwiowity ]]></string>
     <string name="Off"><![CDATA[Off ( ^ _ ^)∠☆]]></string>
-    <string name="OnMobileNetwork"><![CDATA[On Mobiwe nytwowk (♥_♥)]]></string>
+    <string name="OnMobileNetwork"><![CDATA[On Mobiwe nytwowk (♥_♥)]]></string>
     <string name="OnlyAdmins"><![CDATA[Onwy admins ~:o]]></string>
     <string name="OnlyIfSilent"><![CDATA[Onwy if siwent ;____;]]></string>
     <string name="Open"><![CDATA[Open >w<]]></string>
@@ -1072,7 +1072,7 @@ messages from multiple devices."</string>
     <string name="PhoneCall"><![CDATA[Phone Caww (ô_ô)]]></string>
     <string name="PhoneMobile"><![CDATA[Mobiwe ( ^ _ ^)∠☆]]></string>
     <string name="PhoneNumberAlert"><![CDATA["Aww youw Tewegwam contacts wiww get youw new numbew added to theiw addwess book, pwovided they had youw owd numbew and you haven't bwocked them in Tewegwam." (ô_ô)]]></string>
-    <string name="PhoneNumberChange"><![CDATA[Change nymbew ((+_+))]]></string>
+    <string name="PhoneNumberChange"><![CDATA[Change nymbew ((+_+))]]></string>
     <string name="PhoneNumberChangeDone"><![CDATA[Continue (>_]]></string>
     <string name="PhoneNumberHelp">"You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.
 
@@ -1085,16 +1085,16 @@ messages from multiple devices."</string>
     <string name="Pin"><![CDATA[Pin (*^*)]]></string>
     <string name="PinMessageInThisChannel"><![CDATA[Pin this message in this channew? (*^*)]]></string>
     <string name="PinMessageInThisGroup"><![CDATA[Pin this message in this gwoup? (>_]]></string>
-    <string name="PinNotify"><![CDATA[nytify aww membews (・`ω´・)]]></string>
+    <string name="PinNotify"><![CDATA[nytify aww membews (・`ω´・)]]></string>
     <string name="PinToTop"><![CDATA[Pin to top ]]></string>
     <string name="PinnedMessage"><![CDATA[Pinned message ]]></string>
     <string name="PinnedMessageAction"><![CDATA[Pinned a message owo]]></string>
     <string name="PinnedMessageChanged"><![CDATA[Pinned message changed owo]]></string>
     <string name="PinnedMessages"><![CDATA[Pinned Messages (^o) (/o^)/]]></string>
     <string name="PlaceSearchError"><![CDATA[Ewwow Seawching Pwaces (・`ω´・)]]></string>
-    <string name="PlayListAdd"><![CDATA[Pway nyxt owo]]></string>
+    <string name="PlayListAdd"><![CDATA[Pway nyxt owo]]></string>
     <string name="PlayListHighlight"><![CDATA[Highwight in Wist ;;w;;]]></string>
-    <string name="PlayListPlayNext"><![CDATA[Pway nyxt ( ^ _ ^)∠☆]]></string>
+    <string name="PlayListPlayNext"><![CDATA[Pway nyxt ( ^ _ ^)∠☆]]></string>
     <string name="PlayListRemove"><![CDATA[Wemove (・`ω´・)]]></string>
     <string name="PlayListRemoveTrack"><![CDATA[Wemove %1$s fwom cuwwent pwaywist? >w<]]></string>
     <string name="PlayListRestore"><![CDATA[Add to Pwaywist ( ^ _ ^)∠☆]]></string>
@@ -1102,14 +1102,14 @@ messages from multiple devices."</string>
     <string name="PlayPause"><![CDATA[Pause UwU]]></string>
     <string name="PlayPlay"><![CDATA[Pway ~:o]]></string>
     <string name="PlayResume"><![CDATA[Wesume ]]></string>
-    <string name="PlaySkipNext"><![CDATA[nyxt ^w^]]></string>
+    <string name="PlaySkipNext"><![CDATA[nyxt ^w^]]></string>
     <string name="PlaySkipPrev"><![CDATA[Pwevious ~:o]]></string>
     <string name="PlayStop"><![CDATA[Stop ( ^ _ ^)∠☆]]></string>
     <string name="Pornography"><![CDATA[Pownogwaphy (♥_♥)]]></string>
     <string name="PostNotFound"><![CDATA[Post not found ( ^ _ ^)∠☆]]></string>
     <string name="PostedBy"><![CDATA[Posted by %1$s ;____;]]></string>
     <string name="PriorityAboutLow"><![CDATA[Wow pwiowity notifications wiww appeaw in system tway without intewwupting. UwU]]></string>
-    <string name="PriorityAboutUrgentAndLow"><![CDATA[Uwgent notifications wiww appeaw when youw phone is in Do nyt Distuwb mode. Wow pwiowity notifications wiww appeaw in system tway without intewwupting. ;;w;;]]></string>
+    <string name="PriorityAboutUrgentAndLow"><![CDATA[Uwgent notifications wiww appeaw when youw phone is in Do nyt Distuwb mode. Wow pwiowity notifications wiww appeaw in system tway without intewwupting. ;;w;;]]></string>
     <string name="PriorityLow"><![CDATA[Wow ~:o]]></string>
     <string name="PriorityRegular"><![CDATA[Weguwaw ((+_+))]]></string>
     <string name="PriorityUrgent"><![CDATA[Uwgent ;____;]]></string>
@@ -1117,8 +1117,8 @@ messages from multiple devices."</string>
     <string name="PrivacyAddToGroupsContactsExcept"><![CDATA[Onwy contacts (%1$s) can add you to gwoups and channews (・`ω´・)]]></string>
     <string name="PrivacyAddToGroupsEverybody"><![CDATA[Evewybody can add you to gwoups and channews (^o) (/o^)/]]></string>
     <string name="PrivacyAddToGroupsEverybodyExcept"><![CDATA[Evewybody (%1$s) can add you to gwoups and channews (*^*)]]></string>
-    <string name="PrivacyAddToGroupsNobody"><![CDATA[nybody can add you to gwoups and channews ]]></string>
-    <string name="PrivacyAddToGroupsNobodyExcept"><![CDATA[nybody (%1$s) can add you to gwoups and channews ^w^]]></string>
+    <string name="PrivacyAddToGroupsNobody"><![CDATA[nybody can add you to gwoups and channews ]]></string>
+    <string name="PrivacyAddToGroupsNobodyExcept"><![CDATA[nybody (%1$s) can add you to gwoups and channews ^w^]]></string>
     <string name="PrivacyAddUsers"><![CDATA[Add usews >w<]]></string>
     <string name="PrivacyAdvanced"><![CDATA[Advanced ;____;]]></string>
     <string name="PrivacyBots"><![CDATA[Bots UwU]]></string>
@@ -1126,8 +1126,8 @@ messages from multiple devices."</string>
     <string name="PrivacyCallsContactsExcept"><![CDATA[Onwy contacts (%1$s) can caww you UwU]]></string>
     <string name="PrivacyCallsEverybody"><![CDATA[Evewybody can caww you (>_]]></string>
     <string name="PrivacyCallsEverybodyExcept"><![CDATA[Evewybody (%1$s) can caww you UwU]]></string>
-    <string name="PrivacyCallsNobody"><![CDATA[nybody can caww you UwU]]></string>
-    <string name="PrivacyCallsNobodyExcept"><![CDATA[nybody (%1$s) can caww you (・`ω´・)]]></string>
+    <string name="PrivacyCallsNobody"><![CDATA[nybody can caww you UwU]]></string>
+    <string name="PrivacyCallsNobodyExcept"><![CDATA[nybody (%1$s) can caww you (・`ω´・)]]></string>
     <string name="PrivacyCallsP2PTitle"><![CDATA[Peew-to-Peew ;;w;;]]></string>
     <string name="PrivacyClearPayment"><![CDATA[Payment info ( ^ _ ^)∠☆]]></string>
     <string name="PrivacyClearShipping"><![CDATA[Shipping info (*^*)]]></string>
@@ -1136,10 +1136,10 @@ messages from multiple devices."</string>
     <string name="PrivacyLastSeenContactsExcept"><![CDATA[Onwy contacts (%1$s) can see youw Wast Seen ]]></string>
     <string name="PrivacyLastSeenEverybody"><![CDATA[Evewybody can see youw Wast Seen (*^*)]]></string>
     <string name="PrivacyLastSeenEverybodyExcept"><![CDATA[Evewybody (%1$s) can see youw Wast Seen >w<]]></string>
-    <string name="PrivacyLastSeenNobody"><![CDATA[nybody can see youw Wast Seen >w<]]></string>
-    <string name="PrivacyLastSeenNobodyExcept"><![CDATA[nybody (%1$s) can see youw Wast Seen ;;w;;]]></string>
+    <string name="PrivacyLastSeenNobody"><![CDATA[nybody can see youw Wast Seen >w<]]></string>
+    <string name="PrivacyLastSeenNobodyExcept"><![CDATA[nybody (%1$s) can see youw Wast Seen ;;w;;]]></string>
     <string name="PrivacyPaymentsClear"><![CDATA[Cweaw Payment and Shipping Info ((+_+))]]></string>
-    <string name="PrivacyPaymentsClearAlert"><![CDATA[Dewete youw shipping info and instwuct aww payment pwovidews to wemove youw saved cwedit cawds? nyte that Tewegwam nevew stowes youw cwedit cawd data. ((+_+))]]></string>
+    <string name="PrivacyPaymentsClearAlert"><![CDATA[Dewete youw shipping info and instwuct aww payment pwovidews to wemove youw saved cwedit cawds? nyte that Tewegwam nevew stowes youw cwedit cawd data. ((+_+))]]></string>
     <string name="PrivacySettings"><![CDATA[Pwivacy and Secuwity ;____;]]></string>
     <string name="PrivacyTitle"><![CDATA[Pwivacy ( ^ _ ^)∠☆]]></string>
     <string name="Private"><![CDATA[Pwivate >w<]]></string>
@@ -1182,7 +1182,7 @@ messages from multiple devices."</string>
     <string name="ProxySocks5"><![CDATA[SOCKS5 %1$s (*^*)]]></string>
     <string name="ProxySponsor"><![CDATA[Pwoxy sponsow owo]]></string>
     <string name="ProxySponsorHint"><![CDATA[This channew is shown by youw pwoxy sewvew. To wemove this channew fwom youw chats wist, disabwe the pwoxy in Tewegwam Settings. UwU]]></string>
-    <string name="ProxyTorNetwork"><![CDATA[Tow nytwowk %1$s ]]></string>
+    <string name="ProxyTorNetwork"><![CDATA[Tow nytwowk %1$s ]]></string>
     <string name="ProxyUsernameHint"><![CDATA[Usewname UwU]]></string>
     <string name="PublicGroup"><![CDATA[Pubwic gwoup ]]></string>
     <string name="PublicGroupsUnavailable"><![CDATA[Sowwy, pubwic gwoups awe unavaiwabwe fow youw account. ((+_+))]]></string>
@@ -1194,7 +1194,7 @@ messages from multiple devices."</string>
     <string name="QDeleteX"><![CDATA[Dewete %1$s? (ô_ô)]]></string>
     <string name="QDeleteXFromY"><![CDATA[Dewete %1$s fwom %2$s? ~:o]]></string>
     <string name="QUnblockX"><![CDATA[Unbwock %1$s? ;____;]]></string>
-    <string name="QuickActionSettingNone"><![CDATA[nyne *(^O^)*]]></string>
+    <string name="QuickActionSettingNone"><![CDATA[nyne *(^O^)*]]></string>
     <string name="QuickActionSettingReply"><![CDATA[Wepwy ^w^]]></string>
     <string name="QuickActionSettingShare"><![CDATA[Shawe ]]></string>
     <string name="RaiseToSpeak"><![CDATA[Waise to Speak ( ^ _ ^)∠☆]]></string>
@@ -1236,7 +1236,7 @@ messages from multiple devices."</string>
     <string name="RemoveXStickers_two" />
     <string name="RemoveXStickers_zero" />
     <string name="RenameContact"><![CDATA[Wename contact ;;w;;]]></string>
-    <string name="RepeatNotifications"><![CDATA[Wepeat nytifications (^o) (/o^)/]]></string>
+    <string name="RepeatNotifications"><![CDATA[Wepeat nytifications (^o) (/o^)/]]></string>
     <string name="RepeatNotificationsDisabled"><![CDATA[Disabwed (^o) (/o^)/]]></string>
     <string name="Reply"><![CDATA[Wepwy (ô_ô)]]></string>
     <string name="Report"><![CDATA[Wepowt (>_]]></string>
@@ -1256,7 +1256,7 @@ messages from multiple devices."</string>
     <string name="ReportXMessages_two" />
     <string name="ReportXMessages_zero" />
     <string name="Reset"><![CDATA[Weset owo]]></string>
-    <string name="ResetNotifications"><![CDATA[Weset Aww nytifications ^w^]]></string>
+    <string name="ResetNotifications"><![CDATA[Weset Aww nytifications ^w^]]></string>
     <string name="ResetStatistics"><![CDATA[Weset statistics ^w^]]></string>
     <string name="ResetStatsHint"><![CDATA[Do you want to weset youw netwowk usage statistics? owo]]></string>
     <string name="RestoreEmailTroubleText"><![CDATA["If you can't westowe access to youw e-maiw, youw wemaining options awe eithew to wemembew youw passwowd ow to weset youw account." (>_]]></string>
@@ -1273,7 +1273,7 @@ messages from multiple devices."</string>
     <string name="RestrictedWillBeShownHere"><![CDATA[Westwicted membews wiww be shown hewe (>_]]></string>
     <string name="RevokeAdminRights"><![CDATA[Wevoke Admin Wights ~:o]]></string>
     <string name="RevokeLink"><![CDATA[Wevoke Wink (>_]]></string>
-    <string name="RightAddNewAdmins"><![CDATA[Add nyw Admins ~:o]]></string>
+    <string name="RightAddNewAdmins"><![CDATA[Add nyw Admins ~:o]]></string>
     <string name="RightBanUsers"><![CDATA[Ban Usews (・`ω´・)]]></string>
     <string name="RightChangeChannelInfo"><![CDATA[Change Channew Info (ô_ô)]]></string>
     <string name="RightChangeGroupInfo"><![CDATA[Change Gwoup Info UwU]]></string>
@@ -1309,7 +1309,7 @@ You may need to restart the app for this to take effect."</string>
     <string name="SecretChatWithUser"><![CDATA[Secwet chat with %1$s ]]></string>
     <string name="SecretChats"><![CDATA[Secwet Chats owo]]></string>
     <string name="SecretFiles"><![CDATA[Secwet media and fiwes ^w^]]></string>
-    <string name="SecretLinkPreviewAlert"><![CDATA[Wouwd you wike to enabwe extended wink pweviews in Secwet Chats? nyte that wink pweviews awe genewated on Tewegwam sewvews. ((+_+))]]></string>
+    <string name="SecretLinkPreviewAlert"><![CDATA[Wouwd you wike to enabwe extended wink pweviews in Secwet Chats? nyte that wink pweviews awe genewated on Tewegwam sewvews. ((+_+))]]></string>
     <string name="SecretLinkPreviewDisable"><![CDATA[Disabwe ^w^]]></string>
     <string name="SecretLinkPreviewEnable"><![CDATA[Enabwe (>_]]></string>
     <string name="SecretPasscodeInfo">"When you set up an additional passcode, you'll need to enter it each time you access this chat. Message preview will be hidden on the chats page.
@@ -1435,7 +1435,7 @@ This can be useful for integration with other services."</string>
     <string name="SuggestStickers"><![CDATA[Stickew suggestions by emoji ^w^]]></string>
     <string name="SuggestStickersAll"><![CDATA[Instawwed + wecommended (・`ω´・)]]></string>
     <string name="SuggestStickersInstalled"><![CDATA[Onwy instawwed *(^O^)*]]></string>
-    <string name="SuggestStickersNone"><![CDATA[nyne (*^*)]]></string>
+    <string name="SuggestStickersNone"><![CDATA[nyne (*^*)]]></string>
     <string name="SymbolsAndObjects"><![CDATA[Symbows &amp; Objects ( ^ _ ^)∠☆]]></string>
     <string name="SyncContacts"><![CDATA[Sync Contacts (>_]]></string>
     <string name="SyncContactsDelete"><![CDATA[Dewete Synced Contacts owo]]></string>
@@ -1485,8 +1485,8 @@ Tap Settings > Permissions, and turn Contacts on"</string>
     <string name="ThemeCustom"><![CDATA[Custom ( ^ _ ^)∠☆]]></string>
     <string name="ThemeCyan"><![CDATA[Cyan ( ^ _ ^)∠☆]]></string>
     <string name="ThemeGreen"><![CDATA[Gween ( ^ _ ^)∠☆]]></string>
-    <string name="ThemeNight"><![CDATA[nyght Bwack (・`ω´・)]]></string>
-    <string name="ThemeNightBlue"><![CDATA[nyght Bwue ( ^ _ ^)∠☆]]></string>
+    <string name="ThemeNight"><![CDATA[nyght Bwack (・`ω´・)]]></string>
+    <string name="ThemeNightBlue"><![CDATA[nyght Bwue ( ^ _ ^)∠☆]]></string>
     <string name="ThemeOrange"><![CDATA[Owange (♥_♥)]]></string>
     <string name="ThemePink"><![CDATA[Pink UwU]]></string>
     <string name="ThemeRed"><![CDATA[Wed ]]></string>
@@ -1725,14 +1725,14 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="common_google_play_services_update_text"><![CDATA["%1$s won't wun unwess you update Googwe Pway sewvices." ((+_+))]]></string>
     <string name="common_google_play_services_update_title"><![CDATA[Update Googwe Pway sewvices owo]]></string>
     <string name="common_google_play_services_updating_text"><![CDATA["%1$s won't wun without Googwe Pway sewvices, which awe cuwwentwy updating." ]]></string>
-    <string name="common_google_play_services_wear_update_text"><![CDATA[nyw vewsion of Googwe Pway sewvices needed. It wiww update itsewf showtwy. ((+_+))]]></string>
+    <string name="common_google_play_services_wear_update_text"><![CDATA[nyw vewsion of Googwe Pway sewvices needed. It wiww update itsewf showtwy. ((+_+))]]></string>
     <string name="common_open_on_phone"><![CDATA[Open on phone UwU]]></string>
     <string name="common_signin_button_text"><![CDATA[Sign in >w<]]></string>
     <string name="common_signin_button_text_long"><![CDATA[Sign in with Googwe (♥_♥)]]></string>
     <string name="copied_phone"><![CDATA[Phone numbew has been copied to the cwipboawd ;;w;;]]></string>
     <string name="date_monthGenitive_0"><![CDATA[Januawy (ô_ô)]]></string>
     <string name="date_monthGenitive_1"><![CDATA[Febwuawy owo]]></string>
-    <string name="date_monthGenitive_10"><![CDATA[nyvembew >w<]]></string>
+    <string name="date_monthGenitive_10"><![CDATA[nyvembew >w<]]></string>
     <string name="date_monthGenitive_11"><![CDATA[Decembew *(^O^)*]]></string>
     <string name="date_monthGenitive_2"><![CDATA[Mawch ;____;]]></string>
     <string name="date_monthGenitive_3"><![CDATA[Apwiw (*^*)]]></string>
@@ -1744,7 +1744,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="date_monthGenitive_9"><![CDATA[Octobew (>_]]></string>
     <string name="date_monthNominative_0"><![CDATA[Januawy ~:o]]></string>
     <string name="date_monthNominative_1"><![CDATA[Febwuawy *(^O^)*]]></string>
-    <string name="date_monthNominative_10"><![CDATA[nyvembew ;____;]]></string>
+    <string name="date_monthNominative_10"><![CDATA[nyvembew ;____;]]></string>
     <string name="date_monthNominative_11"><![CDATA[Decembew (^o) (/o^)/]]></string>
     <string name="date_monthNominative_2"><![CDATA[Mawch owo]]></string>
     <string name="date_monthNominative_3"><![CDATA[Apwiw ]]></string>
@@ -1756,7 +1756,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="date_monthNominative_9"><![CDATA[Octobew ( ^ _ ^)∠☆]]></string>
     <string name="date_monthShort_0"><![CDATA[Jan (ô_ô)]]></string>
     <string name="date_monthShort_1"><![CDATA[Feb (*^*)]]></string>
-    <string name="date_monthShort_10"><![CDATA[nyv *(^O^)*]]></string>
+    <string name="date_monthShort_10"><![CDATA[nyv *(^O^)*]]></string>
     <string name="date_monthShort_11"><![CDATA[Dec (*^*)]]></string>
     <string name="date_monthShort_2"><![CDATA[Maw ]]></string>
     <string name="date_monthShort_3"><![CDATA[Apw ;;w;;]]></string>
@@ -1863,7 +1863,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="language_nameInEnglish"><![CDATA[Engwish owo]]></string>
     <string name="location_AwayKilometers"><![CDATA[%1$s km away ;____;]]></string>
     <string name="location_AwayMeters"><![CDATA[%1$sm away owo]]></string>
-    <string name="location_Nearby"><![CDATA[nyawby (*^*)]]></string>
+    <string name="location_Nearby"><![CDATA[nyawby (*^*)]]></string>
     <string name="location_personAwayKilometers"><![CDATA[is %1$s km away ^w^]]></string>
     <string name="location_personAwayMeters"><![CDATA[is %1$sm away (ô_ô)]]></string>
     <string name="location_personNearby"><![CDATA[is neawby (・`ω´・)]]></string>
@@ -1889,7 +1889,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="passcode_pattern_tooshort"><![CDATA[Pattewn shouwd be at weast 4 dots wong ]]></string>
     <string name="pickFromGallery"><![CDATA[Choose fwom gawwewy ~:o]]></string>
     <string name="project_id"><![CDATA[scenic-pawity-125411 (♥_♥)]]></string>
-    <string name="prompt_network"><![CDATA[ny netwowk connection. Pwease twy again watew ]]></string>
+    <string name="prompt_network"><![CDATA[ny netwowk connection. Pwease twy again watew ]]></string>
     <string name="returnToChannel"><![CDATA[Wetuwn to Channew owo]]></string>
     <string name="returnToGroup"><![CDATA[Wetuwn to Gwoup ( ^ _ ^)∠☆]]></string>
     <string name="slideToCancel"><![CDATA[Swide to Cancew (・`ω´・)]]></string>
