@@ -19,6 +19,7 @@ android:
 branches:
   only:
     - kt-n
+    - ps
 
 before_install:
   - chmod +x gradlew
