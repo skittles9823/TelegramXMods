@@ -39,4 +39,4 @@ deploy:
     skip_cleanup: true
     script: "sh scripts/deploy-telegram.sh"
     on:
-      branch: kt-n
+      branch: ps
