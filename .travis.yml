@@ -32,7 +32,7 @@ install:
   
 before_deploy:
   - chmod +x scripts/changelog.sh
-  - cp app/build/outputs/apk/release/*.apk TelegramXMods-$TRAVIS_BUILD_NUMBER.apk
+  - cp app/build/outputs/apk/release/*.apk TelegramXMods-Playstore-$TRAVIS_BUILD_NUMBER.apk
 
 deploy:
   - provider: script
