@@ -20,11 +20,9 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>Replace San Francisco font with San Francisco Pro</item>
-        <item>Switch from Droid Sans Mono to Fantasque Sans Mono in all font overlays</item>
-        <item>Add OwO strings for that Tewegwam X feel</item>
-        <item>Add a variant of OwO strings with faces for extra UwU</item>
+        <item>Remove custom strings</item>
         <item></item>
         <item>Bugs | skittles9832@gmail.com</item>
+        <item>Telegram | https://t.me/TGXThemed</item>
     </string-array>
 </resources>
