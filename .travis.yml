@@ -3,8 +3,8 @@ sudo: true # y tho
 
 env:
   global:
-    - COMPILE_SDK_VERSION=27 
-    - BUILD_TOOLS_VERSION=27.0.3
+    - COMPILE_SDK_VERSION=28
+    - BUILD_TOOLS_VERSION=28.0.3
 
 android:
   components:
@@ -23,16 +23,16 @@ branches:
 before_install:
   - chmod +x gradlew
 
-script: ./gradlew assembleRelease
+script: ./gradlew assemblePlay
 
 install:
   - sdkmanager --list || true # Debug / Observation
-  - echo y | sdkmanager "platforms;android-27"
+  - echo y | sdkmanager "platforms;android-28"
   - avdmanager --list || true  # Debug / Observation
   
 before_deploy:
   - chmod +x scripts/changelog.sh
-  - cp app/build/outputs/apk/release/*.apk TelegramXMods-Playstore-$TRAVIS_BUILD_NUMBER.apk
+  - cp app/build/outputs/apk/play/*.apk TelegramXMods-play-$TRAVIS_BUILD_NUMBER.apk
 
 deploy:
   - provider: script
