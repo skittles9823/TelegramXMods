@@ -24,7 +24,7 @@ branches:
 before_install:
   - chmod +x gradlew
 
-script: ./gradlew assembleRelease
+script: ./gradlew assembleCi assemblePlay
 
 install:
   - sdkmanager --list || true # Debug / Observation
@@ -33,7 +33,8 @@ install:
   
 before_deploy:
   - chmod +x scripts/changelog.sh
-  - cp app/build/outputs/apk/release/*.apk TelegramXMods-$TRAVIS_BUILD_NUMBER.apk
+  - cp app/build/outputs/apk/ci/*.apk TelegramXMods-ci-$TRAVIS_BUILD_NUMBER.apk
+  - cp app/build/outputs/apk/play/*.apk TelegramXMods-play-$TRAVIS_BUILD_NUMBER.apk
 
 deploy:
   - provider: script
