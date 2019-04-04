@@ -83,8 +83,8 @@ android {
             buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + APK_SIGNATURE_PRODUCTION + "\""
         }
         play {
-            versionCode 153
-            versionName "1.5.3"
+            versionCode 154
+            versionName "1.5.4"
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
                 signingConfig signingConfigs.travis
