@@ -18,6 +18,7 @@ jobs:
       with: 
         args: '"
         source /opt/setup-android-sdk.sh;
+        find;
         ./gradlew assembleCi assemblePlay;
         BUILD_SHA_SHORT=$(git rev-parse --short ${BUILD_SHA});
         cp app/build/outputs/apk/ci/*.apk TelegramXMods-ci-${BUILD_SHA_SHORT}.apk;
