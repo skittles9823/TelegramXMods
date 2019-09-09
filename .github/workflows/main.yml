@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: build
-      uses: xdtianyu/actions-android-ci@v1.0.0
+      uses: xdtianyu/actions-android-ci@master
       env:
         keypass: ${{ secrets.keypass }}
         storepass: ${{ secrets.storepass }}
@@ -17,10 +17,9 @@ jobs:
         BUILD_SHA: ${{ github.sha }}
       with: 
         args: '"
-        source .travis/env.sh;
         source /opt/setup-android-sdk.sh;
         ./gradlew assembleCi assemblePlay;
-        BUILD_SHA_SHORT=$(git rev-parse --short $(BUILD_SHA));
+        BUILD_SHA_SHORT=$(git rev-parse --short ${BUILD_SHA});
         cp app/build/outputs/apk/ci/*.apk TelegramXMods-ci-${BUILD_SHA_SHORT}.apk;
         cp app/build/outputs/apk/play/*.apk TelegramXMods-play-${BUILD_SHA_SHORT}.apk;
         ./scripts/deploy-telegram.sh
