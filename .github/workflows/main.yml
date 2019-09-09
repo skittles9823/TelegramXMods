@@ -8,15 +8,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Skip
-      uses: "veggiemonk/skip-commit@master"
-      env:
-        COMMIT_FILTER: "skip-ci"
-
     - uses: actions/checkout@v1
     - name: checkout submodule
       run: git submodule sync --recursive && git submodule update --init --recursive
-      
+    
+    - name: Skip
+      uses: veggiemonk/skip-commit@master
+      env:
+        COMMIT_FILTER: "kip-ci
+        
     - name: build
       uses: xdtianyu/actions-android-ci@master
       env:
