@@ -43,13 +43,9 @@ android {
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdkVersion 24
         // Both versions must be changed to increment on Play Store/user's devices
-        //if (System.getenv("TRAVIS") == "true") {
-        //    versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
-        //    versionName = System.getenv("TRAVIS_BUILD_NUMBER")
-        //} else {
-        //    versionCode 1
-        //    versionName "dev"
-        //}
+        versionCode 155
+        versionName "1.5.5"
+
 
         // Themers: DO NOT MODIFY
         buildConfigField "boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "" + SUPPORTS_THIRD_PARTY_SYSTEMS
@@ -71,8 +67,6 @@ android {
             buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"\""
         }
         ci {
-            versionCode 155
-            versionName "1.5.5"
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
                 signingConfig signingConfigs.skittles
