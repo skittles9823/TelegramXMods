@@ -20,8 +20,8 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>Update theme template</item>
-        <item>Add original Telegram notification icons</item>
+        <item>Remove all fonts</item>
+        <item>Change app icon</item>
         <item></item>
         <item>Bugs | skittles9832@gmail.com</item>
         <item>Telegram | https://t.me/TGXThemed</item>
