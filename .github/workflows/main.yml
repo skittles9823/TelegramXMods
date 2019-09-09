@@ -27,5 +27,6 @@ jobs:
         BUILD_SHA_SHORT=$(git rev-parse --short ${BUILD_SHA});
         cp app/build/outputs/apk/ci/*.apk TelegramXMods-ci-${BUILD_SHA_SHORT}.apk;
         cp app/build/outputs/apk/play/*.apk TelegramXMods-play-${BUILD_SHA_SHORT}.apk;
+        chmod +x scripts/deploy-telegram.sh
         ./scripts/deploy-telegram.sh
         "'
