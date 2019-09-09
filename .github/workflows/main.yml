@@ -15,7 +15,7 @@ jobs:
     - name: Skip
       uses: veggiemonk/skip-commit@master
       env:
-        COMMIT_FILTER: "kip-ci
+        COMMIT_FILTER: skip-ci
         
     - name: build
       uses: xdtianyu/actions-android-ci@master
