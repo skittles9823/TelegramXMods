@@ -17,6 +17,8 @@ jobs:
         BUILD_SHA: ${{ github.sha }}
       with: 
         args: '"
+        source .travis/env.sh;
+        source /opt/setup-android-sdk.sh;
         ./gradlew assembleCi assemblePlay;
         BUILD_SHA_SHORT=$(git rev-parse --short $(BUILD_SHA));
         cp app/build/outputs/apk/ci/*.apk TelegramXMods-ci-${BUILD_SHA_SHORT}.apk;
