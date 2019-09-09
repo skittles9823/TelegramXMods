@@ -6,9 +6,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    workflow "Build, and Distribute" {
-  on = "push"
-}
 
     steps:
     - name: build
