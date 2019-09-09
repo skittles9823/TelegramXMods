@@ -26,7 +26,7 @@ android {
 
     }
     signingConfigs {
-        travis {
+        skittles {
             storeFile file("Skittles.jks")
             storePassword System.getenv("storepass")
             keyAlias "tgxmods"
@@ -71,23 +71,11 @@ android {
             buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"\""
         }
         ci {
-            versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
-            versionName = System.getenv("TRAVIS_BUILD_NUMBER")
+            versionCode 155
+            versionName "1.5.5"
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-                signingConfig signingConfigs.travis
-
-            // Themers: DO NOT MODIFY
-            buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "" + ENFORCE_GOOGLE_PLAY_INSTALL
-            buildConfigField "String", "BASE_64_LICENSE_KEY", "\"" + BASE_64_LICENSE_KEY + "\""
-            buildConfigField "String", "APK_SIGNATURE_PRODUCTION", "\"" + APK_SIGNATURE_PRODUCTION + "\""
-        }
-        play {
-            versionCode 154
-            versionName "1.5.4"
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-                signingConfig signingConfigs.travis
+                signingConfig signingConfigs.skittles
 
             // Themers: DO NOT MODIFY
             buildConfigField "boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "" + ENFORCE_GOOGLE_PLAY_INSTALL
